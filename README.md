@@ -4,3 +4,4 @@
 - AXI4 AXI总线协议 参考奇哥FOGA
 - MUL  采用booth2算法的华莱士乘法树
 - project 是一个量化CNN的项目
+- book 用来收集一些FPGA的书籍
