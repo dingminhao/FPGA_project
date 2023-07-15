@@ -1,0 +1,601 @@
+
+*** Running vivado
+    with args -log design_1_axi_full_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_full_0_0.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axi_full_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Desktop/B-FILES/TEST-06_AXI/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFile/vivado18/Vivado/2018.3/data/ip'.
+Command: synth_design -top design_1_axi_full_0_0 -part xcku060-ffva1156-2-i -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcku060'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku060'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12448 
+WARNING: [Synth 8-2507] parameter declaration becomes local in axi_full_v1_0_M00_AXI with formal parameter declaration list [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:192]
+WARNING: [Synth 8-1958] event expressions must result in a singular type [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_S00_AXI.v:598]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 480.754 ; gain = 107.594
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_full_0_0' [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_full_0_0/synth/design_1_axi_full_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'axi_full_v1_0' [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0.v:4]
+	Parameter C_M00_AXI_TARGET_SLAVE_BASE_ADDR bound to: 1073741824 - type: integer 
+	Parameter C_M00_AXI_BURST_LEN bound to: 16 - type: integer 
+	Parameter C_M00_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M00_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M00_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S00_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S00_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'axi_full_v1_0_M00_AXI' [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:4]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+	Parameter C_M_TARGET_SLAVE_BASE_ADDR bound to: 1073741824 - type: integer 
+	Parameter C_M_AXI_BURST_LEN bound to: 16 - type: integer 
+	Parameter C_M_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_TRANSACTIONS_NUM bound to: 4 - type: integer 
+	Parameter C_MASTER_LENGTH bound to: 12 - type: integer 
+	Parameter C_NO_BURSTS_REQ bound to: 6 - type: integer 
+	Parameter IDLE bound to: 2'b00 
+	Parameter INIT_WRITE bound to: 2'b01 
+	Parameter INIT_READ bound to: 2'b10 
+	Parameter INIT_COMPARE bound to: 2'b11 
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+INFO: [Synth 8-226] default block is never used [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:753]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+WARNING: [Synth 8-6104] Input port 'bit_depth' has an internal driver [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:167]
+INFO: [Synth 8-6155] done synthesizing module 'axi_full_v1_0_M00_AXI' (1#1) [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_M00_AXI.v:4]
+INFO: [Synth 8-6157] synthesizing module 'axi_full_v1_0_S00_AXI' [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+	Parameter C_S_AXI_AWUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_ARUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_WUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_RUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_S_AXI_BUSER_WIDTH bound to: 1 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 3 - type: integer 
+	Parameter USER_NUM_MEM bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'axi_full_v1_0_S00_AXI' (2#1) [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'axi_full_v1_0' (3#1) [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_full_0_0' (4#1) [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_axi_full_0_0/synth/design_1_axi_full_0_0.v:58]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWSIZE[2]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWSIZE[1]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWSIZE[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWLOCK
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[3]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[2]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[1]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWCACHE[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWQOS[3]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWQOS[2]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWQOS[1]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWQOS[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWREGION[3]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWREGION[2]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWREGION[1]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWREGION[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_AWUSER[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_WUSER[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARSIZE[2]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARSIZE[1]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARSIZE[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARLOCK
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARCACHE[3]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARCACHE[2]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARCACHE[1]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARCACHE[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARQOS[3]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARQOS[2]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARQOS[1]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARQOS[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARREGION[3]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARREGION[2]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARREGION[1]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARREGION[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_S00_AXI has unconnected port S_AXI_ARUSER[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_M00_AXI has unconnected port M_AXI_BID[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_M00_AXI has unconnected port M_AXI_BRESP[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_M00_AXI has unconnected port M_AXI_BUSER[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_M00_AXI has unconnected port M_AXI_RID[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_M00_AXI has unconnected port M_AXI_RRESP[0]
+WARNING: [Synth 8-3331] design axi_full_v1_0_M00_AXI has unconnected port M_AXI_RUSER[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 517.297 ; gain = 144.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 517.297 ; gain = 144.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcku060-ffva1156-2-i
+INFO: [Synth 8-6742] Reading net delay rules and data
+INFO: [Device 21-403] Loading part xcku060-ffva1156-2-i
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 517.297 ; gain = 144.137
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'mst_exec_state_reg' in module 'axi_full_v1_0_M00_AXI'
+INFO: [Synth 8-5544] ROM "mst_exec_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "mst_exec_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'axi_ruser_reg[0:0]' into 'axi_buser_reg[0:0]' [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_S00_AXI.v:234]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                               00 |                               00
+              INIT_WRITE |                               01 |                               01
+               INIT_READ |                               10 |                               10
+            INIT_COMPARE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'mst_exec_state_reg' using encoding 'sequential' in module 'axi_full_v1_0_M00_AXI'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 517.297 ; gain = 144.137
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 4     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 10    
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 27    
++---RAMs : 
+	              128 Bit         RAMs := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 23    
+	   4 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module axi_full_v1_0_M00_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 4     
+Module axi_full_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      6 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 10    
+	                6 Bit    Registers := 2     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 9     
++---RAMs : 
+	              128 Bit         RAMs := 4     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 4     
+	   4 Input      6 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 16    
+	   4 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2760 (col length:120)
+BRAMs: 2160 (col length: RAMB18 120 RAMB36 60)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'inst/axi_full_v1_0_S00_AXI_inst/axi_awlen_reg[7:0]' into 'inst/axi_full_v1_0_S00_AXI_inst/axi_awlen_reg[7:0]' [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_S00_AXI.v:238]
+INFO: [Synth 8-4471] merging register 'inst/axi_full_v1_0_S00_AXI_inst/axi_arlen_reg[7:0]' into 'inst/axi_full_v1_0_S00_AXI_inst/axi_arlen_reg[7:0]' [f:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/ipshared/eef0/hdl/axi_full_v1_0_S00_AXI.v:446]
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awid[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awlen[7] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awlen[6] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awlen[5] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awlen[4] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awlen[3] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awlen[2] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awlen[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awlen[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awsize[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awsize[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awsize[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awburst[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awburst[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awlock driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awcache[3] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awcache[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awcache[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awcache[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awprot[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awprot[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awprot[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awqos[3] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awqos[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awqos[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awqos[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_awuser[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_wstrb[3] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_wstrb[2] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_wstrb[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_wstrb[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_wuser[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arid[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arlen[7] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arlen[6] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arlen[5] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arlen[4] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arlen[3] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arlen[2] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arlen[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arlen[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arsize[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arsize[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arsize[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arburst[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arburst[0] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arlock driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arcache[3] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arcache[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arcache[1] driven by constant 1
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arcache[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arprot[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arprot[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arprot[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arqos[3] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arqos[2] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arqos[1] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_arqos[0] driven by constant 0
+INFO: [Synth 8-3917] design design_1_axi_full_0_0 has port m00_axi_aruser[0] driven by constant 1
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port m00_axi_bid[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port m00_axi_bresp[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port m00_axi_buser[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port m00_axi_rid[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port m00_axi_rresp[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port m00_axi_ruser[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awsize[2]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awsize[1]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awsize[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awlock
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awcache[3]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awcache[2]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awcache[1]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awcache[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awregion[3]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awregion[2]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awregion[1]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awregion[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awqos[3]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awqos[2]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awqos[1]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awqos[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_awuser[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_wuser[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arsize[2]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arsize[1]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arsize[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arlock
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arcache[3]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arcache[2]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arcache[1]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arcache[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arprot[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arregion[3]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arregion[2]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arregion[1]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arregion[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arqos[3]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arqos[2]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arqos[1]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_arqos[0]
+WARNING: [Synth 8-3331] design design_1_axi_full_0_0 has unconnected port s00_axi_aruser[0]
+INFO: [Synth 8-3886] merging instance 'inst/axi_full_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/axi_full_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/axi_full_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/axi_full_v1_0_S00_AXI_inst/axi_buser_reg[0] )
+INFO: [Synth 8-3886] merging instance 'inst/axi_full_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/axi_full_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/axi_full_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_21/\inst/axi_full_v1_0_M00_AXI_inst/axi_araddr_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_21/\inst/axi_full_v1_0_M00_AXI_inst/axi_araddr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_21/\inst/axi_full_v1_0_M00_AXI_inst/axi_araddr_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_21/\inst/axi_full_v1_0_M00_AXI_inst/axi_araddr_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_21/\inst/axi_full_v1_0_M00_AXI_inst/axi_araddr_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_21/\inst/axi_full_v1_0_M00_AXI_inst/axi_araddr_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_17/\inst/axi_full_v1_0_M00_AXI_inst/axi_awaddr_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_17/\inst/axi_full_v1_0_M00_AXI_inst/axi_awaddr_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_17/\inst/axi_full_v1_0_M00_AXI_inst/axi_awaddr_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_17/\inst/axi_full_v1_0_M00_AXI_inst/axi_awaddr_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_17/\inst/axi_full_v1_0_M00_AXI_inst/axi_awaddr_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_17/\inst/axi_full_v1_0_M00_AXI_inst/axi_awaddr_reg[5] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1010.316 ; gain = 637.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------------+---------------------------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name           | RTL Object                                                                | Inference | Size (Depth x Width) | Primitives     | 
++----------------------+---------------------------------------------------------------------------+-----------+----------------------+----------------+
+|design_1_axi_full_0_0 | inst/axi_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[0].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|design_1_axi_full_0_0 | inst/axi_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[1].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|design_1_axi_full_0_0 | inst/axi_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[2].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|design_1_axi_full_0_0 | inst/axi_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[3].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
++----------------------+---------------------------------------------------------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1010.316 ; gain = 637.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++----------------------+---------------------------------------------------------------------------+-----------+----------------------+----------------+
+|Module Name           | RTL Object                                                                | Inference | Size (Depth x Width) | Primitives     | 
++----------------------+---------------------------------------------------------------------------+-----------+----------------------+----------------+
+|design_1_axi_full_0_0 | inst/axi_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[0].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|design_1_axi_full_0_0 | inst/axi_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[1].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|design_1_axi_full_0_0 | inst/axi_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[2].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
+|design_1_axi_full_0_0 | inst/axi_full_v1_0_S00_AXI_inst/BRAM_GEN[0].BYTE_BRAM_GEN[3].byte_ram_reg | Implied   | 16 x 8               | RAM16X1S x 8   | 
++----------------------+---------------------------------------------------------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1012.906 ; gain = 639.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1012.906 ; gain = 639.746
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1012.906 ; gain = 639.746
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1012.906 ; gain = 639.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1012.906 ; gain = 639.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1012.906 ; gain = 639.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1012.906 ; gain = 639.746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY8   |    22|
+|2     |LUT1     |    14|
+|3     |LUT2     |    47|
+|4     |LUT3     |    28|
+|5     |LUT4     |    52|
+|6     |LUT5     |    16|
+|7     |LUT6     |    57|
+|8     |RAM16X1S |    32|
+|9     |FDRE     |   242|
+|10    |FDSE     |     2|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------------------------+----------------------+------+
+|      |Instance                       |Module                |Cells |
++------+-------------------------------+----------------------+------+
+|1     |top                            |                      |   512|
+|2     |  inst                         |axi_full_v1_0         |   512|
+|3     |    axi_full_v1_0_M00_AXI_inst |axi_full_v1_0_M00_AXI |   254|
+|4     |    axi_full_v1_0_S00_AXI_inst |axi_full_v1_0_S00_AXI |   258|
++------+-------------------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1012.906 ; gain = 639.746
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 120 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1012.906 ; gain = 639.746
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1012.906 ; gain = 639.746
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 54 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1071.703 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 32 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+105 Infos, 120 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1071.703 ; gain = 698.543
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1071.703 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.runs/design_1_axi_full_0_0_synth_1/design_1_axi_full_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_axi_full_0_0, cache-ID = 4d1adba65c2a0070
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1260.062 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.runs/design_1_axi_full_0_0_synth_1/design_1_axi_full_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_axi_full_0_0_utilization_synth.rpt -pb design_1_axi_full_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 10 21:54:08 2023...

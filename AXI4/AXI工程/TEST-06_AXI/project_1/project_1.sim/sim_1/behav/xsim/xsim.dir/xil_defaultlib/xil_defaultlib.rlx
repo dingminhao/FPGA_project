@@ -1,0 +1,16 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.ip_user_files/bd/design_1/ip/design_1_axi_full_0_0/sim/design_1_axi_full_0_0.v,1673358825,verilog,,F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.ip_user_files/bd/design_1/ip/design_1_axi_full_1_0/sim/design_1_axi_full_1_0.v,,design_1_axi_full_0_0,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.ip_user_files/bd/design_1/ip/design_1_axi_full_1_0/sim/design_1_axi_full_1_0.v,1673358825,verilog,,F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.ip_user_files/bd/design_1/sim/design_1.v,,design_1_axi_full_1_0,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.ip_user_files/bd/design_1/sim/design_1.v,1673358825,verilog,,F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/AXI_FULL_M_module.v,,design_1,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sim_1/new/sim_tb.v,1673692718,verilog,,,,sim_tb,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,1673358825,verilog,,F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sim_1/new/sim_tb.v,,design_1_wrapper,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/hdl/axi_full_v1_0.v,1673532851,verilog,,F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/sim/axi_full_0.v,,axi_full_v1_0,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/hdl/axi_full_v1_0_M00_AXI.v,1673532851,verilog,,F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/hdl/axi_full_v1_0_S00_AXI.v,,axi_full_v1_0_M00_AXI,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/hdl/axi_full_v1_0_S00_AXI.v,1673532851,verilog,,F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/hdl/axi_full_v1_0.v,,axi_full_v1_0_S00_AXI,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/sim/axi_full_0.v,1673532851,verilog,,F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.ip_user_files/bd/design_1/ip/design_1_axi_full_0_0/sim/design_1_axi_full_0_0.v,,axi_full_0,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/AXI_FULL_M_module.v,1673699956,verilog,,F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v,,AXI_FULL_M_module,,,,,,,,
+F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v,1673698491,verilog,,F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v,,TOP,,,,,,,,

@@ -1,0 +1,120 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_b_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_1_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_2_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_3_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_4_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_5_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_6_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[0].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[1].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[2].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[3].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[4].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[5].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U3_conv2.genblk2[0].conv2_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U3_conv2.genblk2[1].conv2_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U3_conv2.genblk2[2].conv2_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U3_conv2.genblk2[3].conv2_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U3_conv2.genblk2[4].conv2_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U3_conv2.Uc2_w_row0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U3_conv2.Uc2_w_row1.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U3_conv2.Uc2_w_row2.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U3_conv2.Uc2_w_row3.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U3_conv2.Uc2_w_row4.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[0].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[1].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[2].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[3].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[4].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[5].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[6].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[7].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[8].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[9].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[10].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[11].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[12].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[13].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[14].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U6_pool2.genblk2[15].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 collision detected at time: 8065000, Instance: conv1_tb.U0_top.U3_conv2.genblk2[0].conv2_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 8065000, Instance: conv1_tb.U0_top.U3_conv2.genblk2[1].conv2_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 8065000, Instance: conv1_tb.U0_top.U3_conv2.genblk2[2].conv2_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 8065000, Instance: conv1_tb.U0_top.U3_conv2.genblk2[3].conv2_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 8065000, Instance: conv1_tb.U0_top.U3_conv2.genblk2[4].conv2_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[0].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[1].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[2].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[3].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[4].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[5].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[6].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[7].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[8].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[9].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[10].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[11].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[12].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[13].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[14].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 19275000, Instance: conv1_tb.U0_top.U6_pool2.genblk2[15].your_instance_name.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0

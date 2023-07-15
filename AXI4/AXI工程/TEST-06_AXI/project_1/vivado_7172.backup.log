@@ -1,0 +1,260 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jan 12 20:56:47 2023
+# Process ID: 7172
+# Current directory: F:/Desktop/B-FILES/TEST-06_AXI/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5208 F:\Desktop\B-FILES\TEST-06_AXI\project_1\project_1.xpr
+# Log file: F:/Desktop/B-FILES/TEST-06_AXI/project_1/vivado.log
+# Journal file: F:/Desktop/B-FILES/TEST-06_AXI/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Desktop/B-FILES/TEST-06_AXI/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFile/vivado18/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 787.891 ; gain = 165.246
+update_compile_order -fileset sources_1
+open_bd_design {F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'source' was cancelled
+ERROR: [IP_Flow 19-2234] Failed to initialize IP Tcl interpreter '::ipgui_xilinx_com_signal_param_clock_1_0': 
+    while executing
+"source E:/ProgramFile/vivado18/Vivado/2018.3/scripts/ip/xit/1.0/init.tcl"
+    invoked from within
+"interp eval ::ipgui_xilinx_com_signal_param_clock_1_0 [list source [rdi::utils::find_approot_file scripts/ip/xit/1.0/init.tcl]]"
+ERROR: [IP_Flow 19-883] Failed to create TCL scope '::ipgui_xilinx_com_signal_param_clock_1_0' for IP GUI
+ERROR: [IP_Flow 19-3428] Failed to create Customization object clock_temp
+ERROR: [IP_Flow 19-883] Failed to create TCL scope '::ipgui_xilinx_com_signal_param_reset_1_0' for IP GUI
+ERROR: [IP_Flow 19-3428] Failed to create Customization object reset_temp
+Adding cell -- xilinx.com:user:axi_full:1.0 - axi_full_0
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {f:/Desktop/B-FILES/TEST-06_AXI/ip_repo/axi_full_1.0/bd/bd.tcl} "
+    (in namespace eval "::xilinx.com_user_axi_full_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_user_axi_full_1.0 { source -notrace {f:/Desktop/B-FILES/TEST-06_AXI/ip_repo/axi_full_1.0/bd/bd.tcl} }"
+Adding cell -- xilinx.com:user:axi_full:1.0 - axi_full_1
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {f:/Desktop/B-FILES/TEST-06_AXI/ip_repo/axi_full_1.0/bd/bd.tcl} "
+    (in namespace eval "::xilinx.com_user_axi_full_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_user_axi_full_1.0 { source -notrace {f:/Desktop/B-FILES/TEST-06_AXI/ip_repo/axi_full_1.0/bd/bd.tcl} }"
+INFO: [BD 41-1808] Open Block Design has been cancelled.
+INFO: [Common 17-344] 'open_bd_design' was cancelled
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/ProgramFile/vivado18/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/ProgramFile/vivado18/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 6a6cc86eb7cb44b1a050678906eabf74 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_tb_behav xil_defaultlib.sim_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_tb_behav -key {Behavioral:sim_1:Functional:sim_tb} -tclbatch {sim_tb.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_0/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_0/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_1/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_1/S00_AXI
+Time resolution is 1 ps
+source sim_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 883.246 ; gain = 0.000
+run all
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/sim_tb/design_1_wrapper_u0/design_1_i/axi_full_0/inst/axi_full_v1_0_M00_AXI_inst}} 
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/ProgramFile/vivado18/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/ProgramFile/vivado18/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 6a6cc86eb7cb44b1a050678906eabf74 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_tb_behav xil_defaultlib.sim_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_0/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_0/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_1/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_1/S00_AXI
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 883.246 ; gain = 0.000
+run all
+save_wave_config {F:/Desktop/B-FILES/TEST-06_AXI/project_1/sim_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+file mkdir F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new
+close [ open F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/AXI_FULL_M_module.v w ]
+add_files F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/AXI_FULL_M_module.v
+update_compile_order -fileset sources_1
+close_project
+open_project F:/Desktop/B-FILES/TEST-06_AXI/managed_ip_project/managed_ip_project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Desktop/B-FILES/TEST-06_AXI/ip_repo/axi_full_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFile/vivado18/Vivado/2018.3/data/ip'.
+ipx::edit_ip_in_project -upgrade true -name axi_full_v1_0_project -directory F:/Desktop/B-FILES/TEST-06_AXI/managed_ip_project/managed_ip_project.tmp/axi_full_v1_0_project f:/Desktop/B-FILES/TEST-06_AXI/ip_repo/axi_full_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'f:/desktop/b-files/test-06_axi/managed_ip_project/managed_ip_project.tmp/axi_full_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFile/vivado18/Vivado/2018.3/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Desktop/B-FILES/TEST-06_AXI/ip_repo/axi_full_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [f:/Desktop/B-FILES/TEST-06_AXI/ip_repo/axi_full_1.0/hdl/axi_full_v1_0_M00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [f:/Desktop/B-FILES/TEST-06_AXI/ip_repo/axi_full_1.0/hdl/axi_full_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [f:/Desktop/B-FILES/TEST-06_AXI/ip_repo/axi_full_1.0/hdl/axi_full_v1_0.v:]
+update_compile_order -fileset sources_1
+open_project F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Desktop/B-FILES/TEST-06_AXI/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/ProgramFile/vivado18/Vivado/2018.3/data/ip'.
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/ProgramFile/vivado18/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/ProgramFile/vivado18/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 6a6cc86eb7cb44b1a050678906eabf74 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_tb_behav xil_defaultlib.sim_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_tb_behav -key {Behavioral:sim_1:Functional:sim_tb} -tclbatch {sim_tb.tcl} -protoinst "protoinst_files/design_1.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_0/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_0/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_1/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_1/S00_AXI
+Time resolution is 1 ps
+source sim_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 982.797 ; gain = 5.730
+update_compile_order -fileset sources_1
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/sim_tb/design_1_wrapper_u0/design_1_i/axi_full_0/inst/axi_full_v1_0_M00_AXI_inst}} 
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/ProgramFile/vivado18/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/ProgramFile/vivado18/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 6a6cc86eb7cb44b1a050678906eabf74 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_tb_behav xil_defaultlib.sim_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_0/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_0/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_1/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /sim_tb/design_1_wrapper_u0/design_1_i//axi_full_1/S00_AXI
+Time resolution is 1 ps
+run all

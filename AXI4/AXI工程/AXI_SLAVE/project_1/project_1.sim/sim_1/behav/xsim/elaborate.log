@@ -1,0 +1,16 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/ProgramFile/vivado18/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 28d402ca8cfa4c83bde05ad7c9490be5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_AXI_SLAVE_tb_behav xil_defaultlib.sim_AXI_SLAVE_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "F:/Desktop/AXI_SLAVE/project_1/project_1.srcs/sources_1/new/AXI_FULL_M_module.v" Line 1. Module AXI_FULL_M_module doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "F:/Desktop/AXI_SLAVE/project_1/project_1.srcs/sources_1/new/axi_slave_module.v" Line 1. Module axi_slave_module(C_S_AXI_ADDR_WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AXI_FULL_M_module
+Compiling module xil_defaultlib.axi_slave_module(C_S_AXI_ADDR_WI...
+Compiling module xil_defaultlib.sim_AXI_SLAVE_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_AXI_SLAVE_tb_behav

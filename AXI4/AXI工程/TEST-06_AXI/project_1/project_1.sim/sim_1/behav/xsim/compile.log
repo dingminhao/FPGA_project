@@ -1,0 +1,37 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/hdl/axi_full_v1_0_M00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_full_v1_0_M00_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/hdl/axi_full_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_full_v1_0_S00_AXI
+WARNING: [VRFC 10-634] event expressions must result in a singular type [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/hdl/axi_full_v1_0_S00_AXI.v:598]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/hdl/axi_full_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_full_v1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/ip/axi_full_0/sim/axi_full_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_full_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.ip_user_files/bd/design_1/ip/design_1_axi_full_0_0/sim/design_1_axi_full_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_axi_full_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.ip_user_files/bd/design_1/ip/design_1_axi_full_1_0/sim/design_1_axi_full_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_axi_full_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/AXI_FULL_M_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_FULL_M_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_ID_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:14]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_ADDR_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:15]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_AWUSER_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:23]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_DATA_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:26]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_DATA_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:27]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_WUSER_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:29]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_ID_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:32]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_BUSER_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:34]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_ID_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:37]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_ADDR_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:38]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_ARUSER_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:46]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_ID_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:49]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_DATA_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:50]
+WARNING: [VRFC 10-3380] identifier 'C_M_AXI_RUSER_WIDTH' is used before its declaration [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:53]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sim_1/new/sim_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_tb

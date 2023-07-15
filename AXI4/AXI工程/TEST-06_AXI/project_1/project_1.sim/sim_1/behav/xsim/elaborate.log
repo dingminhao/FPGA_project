@@ -1,0 +1,29 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/ProgramFile/vivado18/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 6a6cc86eb7cb44b1a050678906eabf74 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_tb_behav xil_defaultlib.sim_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 6 for port 's00_axi_awaddr' [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:187]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's00_axi_awuser' [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:195]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's00_axi_wuser' [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:201]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's00_axi_buser' [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:206]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 6 for port 's00_axi_araddr' [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:210]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's00_axi_aruser' [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:218]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 's00_axi_ruser' [F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.srcs/sources_1/new/TOP.v:225]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.axi_full_v1_0_M00_AXI(C_M_AXI_AW...
+Compiling module xil_defaultlib.axi_full_v1_0_S00_AXI(C_S_AXI_AW...
+Compiling module xil_defaultlib.axi_full_v1_0(C_M00_AXI_AWUSER_W...
+Compiling module xil_defaultlib.design_1_axi_full_0_0
+Compiling module xil_defaultlib.design_1_axi_full_1_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.AXI_FULL_M_module(C_M_AXI_BURST_...
+Compiling module xil_defaultlib.axi_full_0
+Compiling module xil_defaultlib.TOP
+Compiling module xil_defaultlib.sim_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_tb_behav

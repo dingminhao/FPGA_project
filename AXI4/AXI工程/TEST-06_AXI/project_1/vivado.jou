@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jan 31 20:22:37 2023
+# Process ID: 5472
+# Current directory: F:/Desktop/B-FILES/TEST-06_AXI/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7628 F:\Desktop\B-FILES\TEST-06_AXI\project_1\project_1.xpr
+# Log file: F:/Desktop/B-FILES/TEST-06_AXI/project_1/vivado.log
+# Journal file: F:/Desktop/B-FILES/TEST-06_AXI/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Desktop/B-FILES/TEST-06_AXI/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+create_bd_design "design_2"
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 axi_interconnect_0
+endgroup
+set_property -dict [list CONFIG.NUM_SI {3} CONFIG.NUM_MI {4}] [get_bd_cells axi_interconnect_0]
+connect_bd_intf_net -boundary_type upper [get_bd_intf_pins axi_interconnect_0/M00_AXI] [get_bd_intf_pins axi_interconnect_0/S00_AXI]
+undo

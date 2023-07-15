@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 24 19:08:04 2023
+# Process ID: 13084
+# Current directory: E:/FPGA/my_lenet/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7652 E:\FPGA\my_lenet\project_1\project_1.xpr
+# Log file: E:/FPGA/my_lenet/project_1/vivado.log
+# Journal file: E:/FPGA/my_lenet/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA/my_lenet/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source conv1_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/conv1_tb/U0_top/U0_conv1}} 
+relaunch_sim
+run 10 us
+close_sim

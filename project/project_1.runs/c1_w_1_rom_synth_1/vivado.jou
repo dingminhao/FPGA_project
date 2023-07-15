@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jun  2 10:05:54 2023
+# Process ID: 12312
+# Current directory: C:/Users/DMH/Desktop/project/project_1.runs/c1_w_1_rom_synth_1
+# Command line: vivado.exe -log c1_w_1_rom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source c1_w_1_rom.tcl
+# Log file: C:/Users/DMH/Desktop/project/project_1.runs/c1_w_1_rom_synth_1/c1_w_1_rom.vds
+# Journal file: C:/Users/DMH/Desktop/project/project_1.runs/c1_w_1_rom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source c1_w_1_rom.tcl -notrace

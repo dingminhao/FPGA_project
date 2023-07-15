@@ -1,0 +1,766 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May 25 10:15:45 2023
+# Process ID: 22644
+# Current directory: E:/FPGA/my_lenet/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20384 E:\FPGA\my_lenet\project_1\project_1.xpr
+# Log file: E:/FPGA/my_lenet/project_1/vivado.log
+# Journal file: E:/FPGA/my_lenet/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA/my_lenet/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado2018/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 798.277 ; gain = 171.094
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/vivado2018/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'conv1_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_b_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_b.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_1_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_1.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_2_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_2.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_3_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_3.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_4_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_4.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_5_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_5.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_6_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_6.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj conv1_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado2018/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto e29d772b466448f9a3ad5959f080ffff --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot conv1_tb_behav xil_defaultlib.conv1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 3 for port 'addra' [E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/conv1.v:143]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "conv1_tb_behav -key {Behavioral:sim_1:Functional:conv1_tb} -tclbatch {conv1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source conv1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_b_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_1_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_2_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_3_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_4_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_5_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_6_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[0].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[1].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[2].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[3].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[4].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[5].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 874.738 ; gain = 63.656
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'conv1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 874.738 ; gain = 63.656
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/conv1_tb/U0_top/U0_conv1}} 
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/vivado2018/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'conv1_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_b_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_b.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_1_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_1.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_2_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_2.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_3_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_3.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_4_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_4.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_5_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_5.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_6_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_6.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj conv1_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado2018/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto e29d772b466448f9a3ad5959f080ffff --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot conv1_tb_behav xil_defaultlib.conv1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 3 for port 'addra' [E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/conv1.v:143]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_b_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_1_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_2_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_3_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_4_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_5_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_6_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[0].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[1].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[2].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[3].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[4].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[5].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+relaunch_xsim_kernel: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1087.148 ; gain = 212.410
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1087.148 ; gain = 212.410
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/vivado2018/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'conv1_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_b_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_b.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_1_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_1.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_2_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_2.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_3_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_3.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_4_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_4.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_5_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_5.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_6_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_6.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj conv1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/pool1_data_linebuffer/sim/pool1_data_linebuffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pool1_data_linebuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/gray_linebuffer/sim/gray_linebuffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gray_linebuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_6_rom/sim/c1_w_6_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_6_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_5_rom/sim/c1_w_5_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_5_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_4_rom/sim/c1_w_4_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_4_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_3_rom/sim/c1_w_3_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_3_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_2_rom/sim/c1_w_2_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_2_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_1_rom/sim/c1_w_1_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_1_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_b_rom/sim/c1_b_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_b_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/conv1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/pool1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pool1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sim_1/new/conv1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado2018/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto e29d772b466448f9a3ad5959f080ffff --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot conv1_tb_behav xil_defaultlib.conv1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 3 for port 'addra' [E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/conv1.v:143]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.gray_linebuffer
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_b_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_1_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_2_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_3_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_4_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_5_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_6_rom
+Compiling module xil_defaultlib.conv1_default
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.pool1_data_linebuffer
+Compiling module xil_defaultlib.pool1_default
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.conv1_tb
+WARNING: [XSIM 43-3373] "E:/FPGA/my_lenet/project_1/project_1.srcs/sim_1/new/conv1_tb.v" Line 53. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot conv1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "conv1_tb_behav -key {Behavioral:sim_1:Functional:conv1_tb} -tclbatch {conv1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source conv1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_b_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_1_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_2_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_3_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_4_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_5_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_6_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[0].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[1].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[2].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[3].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[4].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[5].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+xsim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1157.336 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'conv1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1157.336 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/conv1_tb/U0_top/U0_conv1}} 
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/vivado2018/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'conv1_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_b_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_b.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_1_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_1.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_2_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_2.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_3_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_3.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_4_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_4.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_5_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_5.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_6_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_6.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj conv1_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado2018/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto e29d772b466448f9a3ad5959f080ffff --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot conv1_tb_behav xil_defaultlib.conv1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 3 for port 'addra' [E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/conv1.v:143]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_b_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_1_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_2_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_3_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_4_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_5_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_6_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[0].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[1].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[2].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[3].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[4].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[5].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+relaunch_xsim_kernel: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1157.336 ; gain = 0.000
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1157.336 ; gain = 0.000
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/vivado2018/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'conv1_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_b_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_b.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_1_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_1.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_2_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_2.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_3_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_3.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_4_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_4.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_5_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_5.coe'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_6_rom.mif'
+INFO: [SIM-utils-43] Exported 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim/c1_w_6.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj conv1_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/pool1_data_linebuffer/sim/pool1_data_linebuffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pool1_data_linebuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/gray_linebuffer/sim/gray_linebuffer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gray_linebuffer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_6_rom/sim/c1_w_6_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_6_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_5_rom/sim/c1_w_5_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_5_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_4_rom/sim/c1_w_4_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_4_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_3_rom/sim/c1_w_3_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_3_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_2_rom/sim/c1_w_2_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_2_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_w_1_rom/sim/c1_w_1_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_w_1_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/ip/c1_b_rom/sim/c1_b_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module c1_b_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/conv1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/pool1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pool1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FPGA/my_lenet/project_1/project_1.srcs/sim_1/new/conv1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module conv1_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/vivado2018/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto e29d772b466448f9a3ad5959f080ffff --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot conv1_tb_behav xil_defaultlib.conv1_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 3 for port 'addra' [E:/FPGA/my_lenet/project_1/project_1.srcs/sources_1/new/conv1.v:143]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.gray_linebuffer
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_b_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_1_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_2_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_3_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_4_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_5_rom
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.c1_w_6_rom
+Compiling module xil_defaultlib.conv1_default
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_output_stage(...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_2.blk_mem_gen_v8_4_2(C_FAMILY="zyn...
+Compiling module xil_defaultlib.pool1_data_linebuffer
+Compiling module xil_defaultlib.pool1_default
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.conv1_tb
+WARNING: [XSIM 43-3373] "E:/FPGA/my_lenet/project_1/project_1.srcs/sim_1/new/conv1_tb.v" Line 53. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot conv1_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FPGA/my_lenet/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "conv1_tb_behav -key {Behavioral:sim_1:Functional:conv1_tb} -tclbatch {conv1_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source conv1_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_b_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_1_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_2_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_3_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_4_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_5_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module conv1_tb.U0_top.U0_conv1.c1_w_6_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[0].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[1].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[2].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[3].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[4].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module conv1_tb.U0_top.U1_pool1.genblk2[5].pool1_data_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[0].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[1].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[2].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[3].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 collision detected at time: 215000, Instance: conv1_tb.U0_top.U0_conv1.genblk3[4].gray_linebuffer_U.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 6 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 7 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 19 is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1a is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+blk_mem_gen_v8_4_2 WARNING: Address 1b is outside range for A Read
+xsim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1177.742 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'conv1_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1177.742 ; gain = 0.000
+current_wave_config {Untitled 3}
+Untitled 3
+add_wave {{/conv1_tb/U0_top/U0_conv1}} 
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 25 10:30:51 2023...

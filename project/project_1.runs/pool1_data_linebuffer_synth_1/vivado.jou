@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 17 15:57:18 2023
+# Process ID: 12176
+# Current directory: E:/FPGA/my_lenet/project_1/project_1.runs/pool1_data_linebuffer_synth_1
+# Command line: vivado.exe -log pool1_data_linebuffer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pool1_data_linebuffer.tcl
+# Log file: E:/FPGA/my_lenet/project_1/project_1.runs/pool1_data_linebuffer_synth_1/pool1_data_linebuffer.vds
+# Journal file: E:/FPGA/my_lenet/project_1/project_1.runs/pool1_data_linebuffer_synth_1\vivado.jou
+#-----------------------------------------------------------
+source pool1_data_linebuffer.tcl -notrace

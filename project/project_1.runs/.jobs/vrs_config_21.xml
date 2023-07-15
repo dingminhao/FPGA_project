@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="c1_w_1_rom_synth_1" LaunchDir="C:/Users/DMH/Desktop/project/project_1.runs/c1_w_1_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="c1_w_3_rom_synth_1" LaunchDir="C:/Users/DMH/Desktop/project/project_1.runs/c1_w_3_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="c1_w_4_rom_synth_1" LaunchDir="C:/Users/DMH/Desktop/project/project_1.runs/c1_w_4_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="c1_w_5_rom_synth_1" LaunchDir="C:/Users/DMH/Desktop/project/project_1.runs/c1_w_5_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="c1_w_6_rom_synth_1" LaunchDir="C:/Users/DMH/Desktop/project/project_1.runs/c1_w_6_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="c1_b_rom_synth_1" LaunchDir="C:/Users/DMH/Desktop/project/project_1.runs/c1_b_rom_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/DMH/Desktop/project/project_1.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="c1_w_1_rom_synth_1"/>
+		<Parent Id="c1_w_3_rom_synth_1"/>
+		<Parent Id="c1_w_4_rom_synth_1"/>
+		<Parent Id="c1_w_5_rom_synth_1"/>
+		<Parent Id="c1_w_6_rom_synth_1"/>
+		<Parent Id="c1_b_rom_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

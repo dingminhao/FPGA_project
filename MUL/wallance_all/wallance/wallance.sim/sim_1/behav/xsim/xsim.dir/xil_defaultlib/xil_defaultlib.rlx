@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/DMH/Desktop/summerysyx/mul_div/wallance_all/design/booth.v,1689296383,verilog,,C:/Users/DMH/Desktop/summerysyx/mul_div/wallance_all/design/wallence_3_2.v,,ysyx_alu_mul_booth_r4,,,,,,,,
+C:/Users/DMH/Desktop/summerysyx/mul_div/wallance_all/design/tb_booth.v,1689336473,verilog,,,,tb_booth,,,,,,,,
+C:/Users/DMH/Desktop/summerysyx/mul_div/wallance_all/design/wallence_3_2.v,1689318968,verilog,,C:/Users/DMH/Desktop/summerysyx/mul_div/wallance_all/design/tb_booth.v,,ysyx_alu_mul_wallace_csa;ysyx_full_adder;ysyx_regTemplate,,,,,,,,
+C:/Users/DMH/Desktop/summerysyx/mul_div/wallance_all/wallance/wallance.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
