@@ -1,0 +1,7 @@
+#include "imx222.h"
+
+int initIMX222(XSpiPs *spipsptr){
+	int status;
+
+	return status;
+}

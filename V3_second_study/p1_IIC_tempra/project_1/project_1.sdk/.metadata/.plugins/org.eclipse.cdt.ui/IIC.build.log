@@ -1,0 +1,52 @@
+21:34:54 **** Incremental Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdTemp,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:87:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Tdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:89:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdHum,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:93:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Hdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76776	   2596	  23408	 102780	  1917c	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+
+21:34:56 Build Finished (took 1s.603ms)
+

@@ -1,0 +1,1296 @@
+20:55:54 **** Build of project IIC_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+20:56:19 **** Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22568	  43060	   a834	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+20:56:22 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:56:54 **** Incremental Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:00:30 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:55:1: error: unknown type name 'XIicPs_Config'
+ XIicPs_Config* IicPs_Config;
+ ^~~~~~~~~~~~~
+../src/helloworld.c:69:14: error: unknown type name 'XIicPs'
+ int Init_I2C(XIicPs* iic, XIicPs_Config* IicPs_0_Config){
+              ^~~~~~
+../src/helloworld.c:69:27: error: unknown type name 'XIicPs_Config'
+ int Init_I2C(XIicPs* iic, XIicPs_Config* IicPs_0_Config){
+                           ^~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:03:21 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:75:9: warning: 'status' is used uninitialized in this function [-Wuninitialized]
+  return status;
+         ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19388	   1144	  22584	  43116	   a86c	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:06:27 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:78:32: error: 'iicOps' undeclared (first use in this function); did you mean 'iic'?
+  status = XIicPs_CfgInitialize(iicOps, IicPs_0_Config, IicPs_0_Config->BaseAddress);
+                                ^~~~~~
+                                iic
+../src/helloworld.c:78:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:79:5: error: 'Status' undeclared (first use in this function); did you mean 'status'?
+  if(Status != XST_SUCCESS){
+     ^~~~~~
+     status
+../src/helloworld.c:80:21: error: expected ';' before ':' token
+   return XST_FAILURE:
+                     ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:07:05 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic0ps' [-Wunused-variable]
+  XIicPs* iic0ps;
+          ^~~~~~
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:79:32: error: 'iicOps' undeclared (first use in this function); did you mean 'iic'?
+  status = XIicPs_CfgInitialize(iicOps, IicPs_0_Config, IicPs_0_Config->BaseAddress);
+                                ^~~~~~
+                                iic
+../src/helloworld.c:79:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:80:5: error: 'Status' undeclared (first use in this function); did you mean 'status'?
+  if(Status != XST_SUCCESS){
+     ^~~~~~
+     status
+../src/helloworld.c:81:21: error: expected ';' before ':' token
+   return XST_FAILURE:
+                     ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:07:12 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic0ps' [-Wunused-variable]
+  XIicPs* iic0ps;
+          ^~~~~~
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:79:32: error: 'iic0ps' undeclared (first use in this function); did you mean 'iic'?
+  status = XIicPs_CfgInitialize(iic0ps, IicPs_0_Config, IicPs_0_Config->BaseAddress);
+                                ^~~~~~
+                                iic
+../src/helloworld.c:79:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:80:5: error: 'Status' undeclared (first use in this function); did you mean 'status'?
+  if(Status != XST_SUCCESS){
+     ^~~~~~
+     status
+../src/helloworld.c:81:21: error: expected ';' before ':' token
+   return XST_FAILURE:
+                     ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:07:25 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic0ps' [-Wunused-variable]
+  XIicPs* iic0ps;
+          ^~~~~~
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:79:32: error: 'iic0ps' undeclared (first use in this function); did you mean 'iic'?
+  status = XIicPs_CfgInitialize(iic0ps, IicPs_0_Config, IicPs_0_Config->BaseAddress);
+                                ^~~~~~
+                                iic
+../src/helloworld.c:79:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:80:5: error: 'Status' undeclared (first use in this function); did you mean 'status'?
+  if(Status != XST_SUCCESS){
+     ^~~~~~
+     status
+../src/helloworld.c:81:21: error: expected ';' before ':' token
+   return XST_FAILURE:
+                     ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:07:36 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic0ps' [-Wunused-variable]
+  XIicPs* iic0ps;
+          ^~~~~~
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:79:32: error: 'iic0ps' undeclared (first use in this function); did you mean 'iic'?
+  status = XIicPs_CfgInitialize(iic0ps, IicPs_0_Config, IicPs_0_Config->BaseAddress);
+                                ^~~~~~
+                                iic
+../src/helloworld.c:79:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:81:21: error: expected ';' before ':' token
+   return XST_FAILURE:
+                     ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:07:46 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic0ps' [-Wunused-variable]
+  XIicPs* iic0ps;
+          ^~~~~~
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:79:32: error: 'iic0ps' undeclared (first use in this function); did you mean 'iic'?
+  status = XIicPs_CfgInitialize(iic0ps, IicPs_0_Config, IicPs_0_Config->BaseAddress);
+                                ^~~~~~
+                                iic
+../src/helloworld.c:79:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:81:21: error: expected ';' before ':' token
+   return XST_FAILURE:
+                     ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:08:13 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic0ps' [-Wunused-variable]
+  XIicPs* iic0ps;
+          ^~~~~~
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:81:21: error: expected ';' before ':' token
+   return XST_FAILURE:
+                     ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:08:22 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic0ps' [-Wunused-variable]
+  XIicPs* iic0ps;
+          ^~~~~~
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:81:21: error: expected ';' before ':' token
+   return XST_FAILURE:
+                     ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:08:28 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic0ps' [-Wunused-variable]
+  XIicPs* iic0ps;
+          ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22348	   1160	  22584	  46092	   b40c	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:08:51 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic' [-Wunused-variable]
+  XIicPs* iic;
+          ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22348	   1160	  22584	  46092	   b40c	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:10:01 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic' [-Wunused-variable]
+  XIicPs* iic;
+          ^~~
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:84:26: error: 'iic0os' undeclared (first use in this function); did you mean 'iic'?
+  status = XIicPs_SetSClk(iic0os, SOM_IIC_SCLK_RATE);
+                          ^~~~~~
+                          iic
+../src/helloworld.c:84:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:85:5: error: 'Status' undeclared (first use in this function); did you mean 'status'?
+  if(Status != XST_SUCCESS) {
+     ^~~~~~
+     status
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:10:08 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic' [-Wunused-variable]
+  XIicPs* iic;
+          ^~~
+../src/helloworld.c: In function 'Init_I2C':
+../src/helloworld.c:85:5: error: 'Status' undeclared (first use in this function); did you mean 'status'?
+  if(Status != XST_SUCCESS) {
+     ^~~~~~
+     status
+../src/helloworld.c:85:5: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:10:17 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:62:10: warning: unused variable 'iic' [-Wunused-variable]
+  XIicPs* iic;
+          ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22388	   1160	  22584	  46132	   b434	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:11:05 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:10: warning: unused variable 'command_h' [-Wunused-variable]
+     char command_h = 0xe5;
+          ^~~~~~~~~
+../src/helloworld.c:65:10: warning: unused variable 'comman_t' [-Wunused-variable]
+     char comman_t = 0xe3;
+          ^~~~~~~~
+../src/helloworld.c:64:19: warning: unused variable 'h_out' [-Wunused-variable]
+     double t_out, h_out;
+                   ^~~~~
+../src/helloworld.c:64:12: warning: unused variable 't_out' [-Wunused-variable]
+     double t_out, h_out;
+            ^~~~~
+../src/helloworld.c:63:20: warning: unused variable 'temp' [-Wunused-variable]
+     unsigned short temp = 0;
+                    ^~~~
+../src/helloworld.c:61:10: warning: unused variable 'iic' [-Wunused-variable]
+  XIicPs* iic;
+          ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22420	   1160	  22584	  46164	   b454	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:13:23 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:14: warning: implicit declaration of function 'Init_I2C' [-Wimplicit-function-declaration]
+     status = Init_I2C(iic, IicPs_Config);
+              ^~~~~~~~
+../src/helloworld.c:72:30: error: 'iic0ps' undeclared (first use in this function); did you mean 'iic'?
+      XIicPs_MasterSendPolled(iic0ps, &command_t, 1, IIC_THADDR);
+                              ^~~~~~
+                              iic
+../src/helloworld.c:72:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:72:39: error: 'command_t' undeclared (first use in this function); did you mean 'command_h'?
+      XIicPs_MasterSendPolled(iic0ps, &command_t, 1, IIC_THADDR);
+                                       ^~~~~~~~~
+                                       command_h
+../src/helloworld.c:72:53: error: 'IIC_THADDR' undeclared (first use in this function); did you mean 'IIC_TH_ADDR'?
+      XIicPs_MasterSendPolled(iic0ps, &command_t, 1, IIC_THADDR);
+                                                     ^~~~~~~~~~
+                                                     IIC_TH_ADDR
+../src/helloworld.c:69:9: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+     int status;
+         ^~~~~~
+../src/helloworld.c:68:10: warning: unused variable 'h_data' [-Wunused-variable]
+     char h_data[2];
+          ^~~~~~
+../src/helloworld.c:67:10: warning: unused variable 't_data' [-Wunused-variable]
+     char t_data[2];
+          ^~~~~~
+../src/helloworld.c:66:10: warning: unused variable 'command_h' [-Wunused-variable]
+     char command_h = 0xe5;
+          ^~~~~~~~~
+../src/helloworld.c:65:10: warning: unused variable 'comman_t' [-Wunused-variable]
+     char comman_t = 0xe3;
+          ^~~~~~~~
+../src/helloworld.c:64:19: warning: unused variable 'h_out' [-Wunused-variable]
+     double t_out, h_out;
+                   ^~~~~
+../src/helloworld.c:64:12: warning: unused variable 't_out' [-Wunused-variable]
+     double t_out, h_out;
+            ^~~~~
+../src/helloworld.c:63:20: warning: unused variable 'temp' [-Wunused-variable]
+     unsigned short temp = 0;
+                    ^~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:13:29 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:14: warning: implicit declaration of function 'Init_I2C' [-Wimplicit-function-declaration]
+     status = Init_I2C(iic, IicPs_Config);
+              ^~~~~~~~
+../src/helloworld.c:72:30: error: 'iic0ps' undeclared (first use in this function); did you mean 'iic'?
+      XIicPs_MasterSendPolled(iic0ps, &command_t, 1, IIC_TH_ADDR);
+                              ^~~~~~
+                              iic
+../src/helloworld.c:72:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:72:39: error: 'command_t' undeclared (first use in this function); did you mean 'command_h'?
+      XIicPs_MasterSendPolled(iic0ps, &command_t, 1, IIC_TH_ADDR);
+                                       ^~~~~~~~~
+                                       command_h
+../src/helloworld.c:69:9: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+     int status;
+         ^~~~~~
+../src/helloworld.c:68:10: warning: unused variable 'h_data' [-Wunused-variable]
+     char h_data[2];
+          ^~~~~~
+../src/helloworld.c:67:10: warning: unused variable 't_data' [-Wunused-variable]
+     char t_data[2];
+          ^~~~~~
+../src/helloworld.c:66:10: warning: unused variable 'command_h' [-Wunused-variable]
+     char command_h = 0xe5;
+          ^~~~~~~~~
+../src/helloworld.c:65:10: warning: unused variable 'comman_t' [-Wunused-variable]
+     char comman_t = 0xe3;
+          ^~~~~~~~
+../src/helloworld.c:64:19: warning: unused variable 'h_out' [-Wunused-variable]
+     double t_out, h_out;
+                   ^~~~~
+../src/helloworld.c:64:12: warning: unused variable 't_out' [-Wunused-variable]
+     double t_out, h_out;
+            ^~~~~
+../src/helloworld.c:63:20: warning: unused variable 'temp' [-Wunused-variable]
+     unsigned short temp = 0;
+                    ^~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:14:14 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:14: warning: implicit declaration of function 'Init_I2C' [-Wimplicit-function-declaration]
+     status = Init_I2C(iic, IicPs_Config);
+              ^~~~~~~~
+../src/helloworld.c:72:36: error: 'command_t' undeclared (first use in this function); did you mean 'command_h'?
+      XIicPs_MasterSendPolled(iic, &command_t, 1, IIC_TH_ADDR);
+                                    ^~~~~~~~~
+                                    command_h
+../src/helloworld.c:72:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:69:9: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+     int status;
+         ^~~~~~
+../src/helloworld.c:68:10: warning: unused variable 'h_data' [-Wunused-variable]
+     char h_data[2];
+          ^~~~~~
+../src/helloworld.c:67:10: warning: unused variable 't_data' [-Wunused-variable]
+     char t_data[2];
+          ^~~~~~
+../src/helloworld.c:66:10: warning: unused variable 'command_h' [-Wunused-variable]
+     char command_h = 0xe5;
+          ^~~~~~~~~
+../src/helloworld.c:65:10: warning: unused variable 'comman_t' [-Wunused-variable]
+     char comman_t = 0xe3;
+          ^~~~~~~~
+../src/helloworld.c:64:19: warning: unused variable 'h_out' [-Wunused-variable]
+     double t_out, h_out;
+                   ^~~~~
+../src/helloworld.c:64:12: warning: unused variable 't_out' [-Wunused-variable]
+     double t_out, h_out;
+            ^~~~~
+../src/helloworld.c:63:20: warning: unused variable 'temp' [-Wunused-variable]
+     unsigned short temp = 0;
+                    ^~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:14:54 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:14: warning: implicit declaration of function 'Init_I2C' [-Wimplicit-function-declaration]
+     status = Init_I2C(iic, IicPs_Config);
+              ^~~~~~~~
+../src/helloworld.c:72:35: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterSendPolled(iic, &command_t, 1, IIC_TH_ADDR);
+                                   ^
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:69:9: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+     int status;
+         ^~~~~~
+../src/helloworld.c:68:10: warning: unused variable 'h_data' [-Wunused-variable]
+     char h_data[2];
+          ^~~~~~
+../src/helloworld.c:67:10: warning: unused variable 't_data' [-Wunused-variable]
+     char t_data[2];
+          ^~~~~~
+../src/helloworld.c:66:10: warning: unused variable 'command_h' [-Wunused-variable]
+     char command_h = 0xe5;
+          ^~~~~~~~~
+../src/helloworld.c:64:19: warning: unused variable 'h_out' [-Wunused-variable]
+     double t_out, h_out;
+                   ^~~~~
+../src/helloworld.c:64:12: warning: unused variable 't_out' [-Wunused-variable]
+     double t_out, h_out;
+            ^~~~~
+../src/helloworld.c:63:20: warning: unused variable 'temp' [-Wunused-variable]
+     unsigned short temp = 0;
+                    ^~~~
+../src/helloworld.c:70:12: warning: 'iic' is used uninitialized in this function [-Wuninitialized]
+     status = Init_I2C(iic, IicPs_Config);
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25356	   1160	  22584	  49100	   bfcc	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:18:00 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:14: warning: implicit declaration of function 'Init_I2C' [-Wimplicit-function-declaration]
+     status = Init_I2C(iic, IicPs_Config);
+              ^~~~~~~~
+../src/helloworld.c:72:35: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterSendPolled(iic, &command_t, 1, IIC_TH_ADDR);
+                                   ^
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:73:30: error: 'iic0ps' undeclared (first use in this function); did you mean 'iic'?
+      XIicPs_MasterRecvPolled(iic0ps, t_data, 2, IIC_TH_ADDR);
+                              ^~~~~~
+                              iic
+../src/helloworld.c:73:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:73:38: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterRecvPolled(iic0ps, t_data, 2, IIC_TH_ADDR);
+                                      ^~~~~~
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:77:38: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterSendPolled(iic0ps, &command_h, 1, IIC_TH_ADDR);
+                                      ^
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:78:38: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterRecvPolled(iic0ps, h_data, 2, IIC_TH_ADDR);
+                                      ^~~~~~
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:69:9: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+     int status;
+         ^~~~~~
+../src/helloworld.c:64:19: warning: unused variable 'h_out' [-Wunused-variable]
+     double t_out, h_out;
+                   ^~~~~
+../src/helloworld.c:64:12: warning: variable 't_out' set but not used [-Wunused-but-set-variable]
+     double t_out, h_out;
+            ^~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+21:18:20 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:14: warning: implicit declaration of function 'Init_I2C' [-Wimplicit-function-declaration]
+     status = Init_I2C(iic, IicPs_Config);
+              ^~~~~~~~
+../src/helloworld.c:72:35: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterSendPolled(iic, &command_t, 1, IIC_TH_ADDR);
+                                   ^
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:73:35: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterRecvPolled(iic, t_data, 2, IIC_TH_ADDR);
+                                   ^~~~~~
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:77:35: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterSendPolled(iic, &command_h, 1, IIC_TH_ADDR);
+                                   ^
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:78:35: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterRecvPolled(iic, h_data, 2, IIC_TH_ADDR);
+                                   ^~~~~~
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:69:9: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+     int status;
+         ^~~~~~
+../src/helloworld.c:64:19: warning: unused variable 'h_out' [-Wunused-variable]
+     double t_out, h_out;
+                   ^~~~~
+../src/helloworld.c:64:12: warning: variable 't_out' set but not used [-Wunused-but-set-variable]
+     double t_out, h_out;
+            ^~~~~
+../src/helloworld.c:70:12: warning: 'iic' is used uninitialized in this function [-Wuninitialized]
+     status = Init_I2C(iic, IicPs_Config);
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25520	   1160	  22584	  49264	   c070	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:19:45 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:70:14: warning: implicit declaration of function 'Init_I2C' [-Wimplicit-function-declaration]
+     status = Init_I2C(iic, IicPs_Config);
+              ^~~~~~~~
+../src/helloworld.c:72:35: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterSendPolled(iic, &command_t, 1, IIC_TH_ADDR);
+                                   ^
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:73:35: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterRecvPolled(iic, t_data, 2, IIC_TH_ADDR);
+                                   ^~~~~~
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:77:35: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterSendPolled(iic, &command_h, 1, IIC_TH_ADDR);
+                                   ^
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:78:35: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+      XIicPs_MasterRecvPolled(iic, h_data, 2, IIC_TH_ADDR);
+                                   ^~~~~~
+In file included from ../src/helloworld.c:52:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:69:9: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+     int status;
+         ^~~~~~
+../src/helloworld.c:70:12: warning: 'iic' is used uninitialized in this function [-Wuninitialized]
+     status = Init_I2C(iic, IicPs_Config);
+     ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76328	   2596	  23344	 102268	  18f7c	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:20:07 **** Incremental Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:22:35 **** Incremental Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:25:52 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdTemp,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:90:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Tdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:92:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdHum,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:96:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Hdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:103:3: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+   usleep(1000000);
+   ^~~~~~
+   fseek
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76904	   2596	  23408	 102908	  191fc	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:26:02 **** Incremental Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:31:10 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:86:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdTemp,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:90:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Tdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:92:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdHum,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:96:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Hdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:103:3: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+   usleep(1000000);
+   ^~~~~~
+   fseek
+../src/helloworld.c:78:12: warning: variable 'avgdata' set but not used [-Wunused-but-set-variable]
+     double avgdata[4];
+            ^~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76840	   2596	  23408	 102844	  191bc	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:32:48 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdTemp,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:87:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Tdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:89:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdHum,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:93:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Hdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:101:3: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+   usleep(1000000);
+   ^~~~~~
+   fseek
+../src/helloworld.c:79:12: warning: unused variable 'avgh_data' [-Wunused-variable]
+     double avgh_data[4] = {};
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76904	   2596	  23408	 102908	  191fc	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:32:58 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdTemp,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:87:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Tdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:89:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdHum,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:93:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Hdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:101:3: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+   usleep(1000000);
+   ^~~~~~
+   fseek
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76904	   2596	  23408	 102908	  191fc	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:33:05 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdTemp,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:87:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Tdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:89:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdHum,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:93:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Hdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:101:3: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+   usleep(1000000);
+   ^~~~~~
+   fseek
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76904	   2596	  23408	 102908	  191fc	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:33:23 **** Incremental Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:33:52 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdTemp,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:87:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Tdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:89:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdHum,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:93:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Hdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76776	   2596	  23408	 102780	  1917c	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:34:07 **** Auto Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdTemp,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:87:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Tdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:89:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdHum,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:93:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Hdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76776	   2596	  23408	 102780	  1917c	IIC.elf
+'Finished building: IIC.elf.size'
+' '
+21:34:09 **** Incremental Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:34:20 **** Incremental Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+21:34:54 **** Incremental Build of configuration Debug for project IIC ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../IIC_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:83:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdTemp,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:87:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Tdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:89:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterSendPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterSendPolled(&IicPs,&CmdHum,0x01,IIC_SLV_ADDR);
+                                           ^
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:384:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterSendPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:93:43: warning: pointer targets in passing argument 2 of 'XIicPs_MasterRecvPolled' differ in signedness [-Wpointer-sign]
+   status = XIicPs_MasterRecvPolled(&IicPs,Hdata,0x02,IIC_SLV_ADDR);
+                                           ^~~~~
+In file included from ../src/helloworld.c:51:0:
+../../IIC_bsp/ps7_cortexa9_0/include/xiicps.h:386:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ s32 XIicPs_MasterRecvPolled(XIicPs *InstancePtr, u8 *MsgPtr, s32 ByteCount,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: IIC.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../IIC_bsp/ps7_cortexa9_0/lib -o "IIC.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: IIC.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size IIC.elf  |tee "IIC.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  76776	   2596	  23408	 102780	  1917c	IIC.elf
+'Finished building: IIC.elf.size'
+' '

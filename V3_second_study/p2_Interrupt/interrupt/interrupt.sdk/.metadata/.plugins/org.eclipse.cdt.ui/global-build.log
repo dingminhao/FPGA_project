@@ -1,0 +1,1844 @@
+14:32:02 **** Build of project GPIO_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+14:32:24 **** Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22568	  43060	   a834	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:32:32 **** Build of configuration Debug for project GPIO_bsp_xgpiops_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xgpiops_intr_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpiops_intr_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpiops_intr_example.d" -MT"src/xgpiops_intr_example.o" -o "src/xgpiops_intr_example.o" "../src/xgpiops_intr_example.c"
+'Finished building: ../src/xgpiops_intr_example.c'
+' '
+'Building target: GPIO_bsp_xgpiops_intr_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO_bsp_xgpiops_intr_example_1.elf"  ./src/xgpiops_intr_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO_bsp_xgpiops_intr_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO_bsp_xgpiops_intr_example_1.elf  |tee "GPIO_bsp_xgpiops_intr_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33468	   1928	  22648	  58044	   e2bc	GPIO_bsp_xgpiops_intr_example_1.elf
+'Finished building: GPIO_bsp_xgpiops_intr_example_1.elf.size'
+' '
+14:32:35 **** Auto Build of configuration Debug for project GPIO_bsp_xgpiops_intr_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:32:35 **** Build of configuration Debug for project GPIO_bsp_xgpiops_polled_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/xgpiops_polled_example.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpiops_polled_example.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xgpiops_polled_example.d" -MT"src/xgpiops_polled_example.o" -o "src/xgpiops_polled_example.o" "../src/xgpiops_polled_example.c"
+'Finished building: ../src/xgpiops_polled_example.c'
+' '
+'Building target: GPIO_bsp_xgpiops_polled_example_1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO_bsp_xgpiops_polled_example_1.elf"  ./src/xgpiops_polled_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO_bsp_xgpiops_polled_example_1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO_bsp_xgpiops_polled_example_1.elf  |tee "GPIO_bsp_xgpiops_polled_example_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29916	   1160	  22616	  53692	   d1bc	GPIO_bsp_xgpiops_polled_example_1.elf
+'Finished building: GPIO_bsp_xgpiops_polled_example_1.elf.size'
+' '
+14:32:37 **** Auto Build of configuration Debug for project GPIO_bsp_xgpiops_polled_example_1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:34:28 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30044	   1160	  22616	  53820	   d23c	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:37:05 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:146:12: warning: 'GpioInputExample' defined but not used [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead)
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29816	   1160	  22616	  53592	   d158	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:39:09 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioOutputExample':
+../src/helloworld.c:75:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/helloworld.c:136:12: warning: 'GpioInputExample' defined but not used [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead)
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:72:12: warning: 'GpioOutputExample' defined but not used [-Wunused-function]
+ static int GpioOutputExample(void)
+            ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29880	   1160	  22616	  53656	   d198	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:39:19 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioOutputExample':
+../src/helloworld.c:76:15: warning: unused variable 'Delay' [-Wunused-variable]
+  volatile int Delay;
+               ^~~~~
+At top level:
+../src/helloworld.c:137:12: warning: 'GpioInputExample' defined but not used [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead)
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:73:12: warning: 'GpioOutputExample' defined but not used [-Wunused-function]
+ static int GpioOutputExample(void)
+            ^~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29880	   1160	  22616	  53656	   d198	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:40:02 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:20:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:21:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:25:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin; /* Switch button */
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29432	   1160	  22616	  53208	   cfd8	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:41:06 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin; /* Switch button */
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29432	   1160	  22616	  53208	   cfd8	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:42:34 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:26:12: error: redefinition of 'Output_Pin'
+ static u32 Output_Pin = 55; /* LED1 button */
+            ^~~~~~~~~~
+../src/helloworld.c:25:12: note: previous definition of 'Output_Pin' was here
+ static u32 Output_Pin = 54; /* LED0 button */
+            ^~~~~~~~~~
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:25:12: warning: 'Output_Pin' defined but not used [-Wunused-variable]
+ static u32 Output_Pin = 54; /* LED0 button */
+            ^~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin = 56; /* Switch button */
+            ^~~~~~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+14:42:41 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:26:12: error: redefinition of 'Output_Pin'
+ static u32 Output_Pin = 55; /* LED1 button */
+            ^~~~~~~~~~
+../src/helloworld.c:25:12: note: previous definition of 'Output_Pin' was here
+ static u32 Output_Pin = 54; /* LED0 button */
+            ^~~~~~~~~~
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:25:12: warning: 'Output_Pin' defined but not used [-Wunused-variable]
+ static u32 Output_Pin = 54; /* LED0 button */
+            ^~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin = 56; /* Switch button */
+            ^~~~~~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+14:42:58 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:64:26: error: 'Output_Pin' undeclared (first use in this function); did you mean 'Output_Pin1'?
+  XGpioPs_WritePin(&Gpio, Output_Pin, 0x0);
+                          ^~~~~~~~~~
+                          Output_Pin1
+../src/helloworld.c:64:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin = 56; /* Switch button */
+            ^~~~~~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+14:43:07 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin = 56; /* Switch button */
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   1168	  22616	  53280	   d020	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:43:11 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin = 56; /* Switch button */
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   1168	  22616	  53280	   d020	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:43:14 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin = 56; /* Switch button */
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   1168	  22616	  53280	   d020	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:44:53 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin = 56; /* Switch button */
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   1168	  22616	  53280	   d020	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:45:00 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:45:44 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin = 56; /* Switch button */
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   1168	  22616	  53280	   d020	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:46:19 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:46:29 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:46:50 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:47:23 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin = 56; /* Switch button */
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   1168	  22616	  53280	   d020	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:47:26 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:47:50 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:48:03 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c:24:12: warning: 'Input_Pin' defined but not used [-Wunused-variable]
+ static u32 Input_Pin = 56; /* Switch button */
+            ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29496	   1168	  22616	  53280	   d020	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:48:06 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:49:03 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   1168	  22616	  53344	   d060	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:49:15 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:67:2: error: 'Data' undeclared (first use in this function)
+  Data = XGpioPs_ReadPin(&Gpio, Output_Pin);
+  ^~~~
+../src/helloworld.c:67:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:67:32: error: 'Output_Pin' undeclared (first use in this function); did you mean 'Output_Pin1'?
+  Data = XGpioPs_ReadPin(&Gpio, Output_Pin);
+                                ^~~~~~~~~~
+                                Output_Pin1
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+14:49:27 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:67:25: error: 'Output_Pin' undeclared (first use in this function); did you mean 'Output_Pin1'?
+  XGpioPs_ReadPin(&Gpio, Output_Pin);
+                         ^~~~~~~~~~
+                         Output_Pin1
+../src/helloworld.c:67:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+14:49:29 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29560	   1168	  22616	  53344	   d060	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:50:13 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29576	   1168	  22616	  53360	   d070	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:50:25 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29576	   1168	  22616	  53360	   d070	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:51:22 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29640	   1168	  22616	  53424	   d0b0	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:51:40 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29704	   1168	  22616	  53488	   d0f0	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:51:46 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29768	   1168	  22616	  53552	   d130	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:51:51 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29768	   1168	  22616	  53552	   d130	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:51:54 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:54:25 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:72:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29896	   1168	  22616	  53680	   d1b0	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:54:39 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:55:11 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:72:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29960	   1168	  22616	  53744	   d1f0	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:55:28 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:72:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29964	   1168	  22616	  53748	   d1f4	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:55:31 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:57:06 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:72:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29964	   1168	  22616	  53748	   d1f4	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+14:57:09 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+14:59:09 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:72:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:92:2: error: 'GpioCnfPtr' undeclared (first use in this function)
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+  ^~~~~~~~~~
+../src/helloworld.c:92:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:92:36: error: 'GPIO_DEV_ID' undeclared (first use in this function); did you mean 'GPIO_DEVICE_ID'?
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+                                    ^~~~~~~~~~~
+                                    GPIO_DEVICE_ID
+../src/helloworld.c:93:34: error: 'GpioPs' undeclared (first use in this function); did you mean 'XGpioPs'?
+  status = XGpioPs_CfgInitialize(&GpioPs,GpioCnfPtr,GpioCnfPtr->BaseAddr);
+                                  ^~~~~~
+                                  XGpioPs
+../src/helloworld.c:101:34: error: 'SW0' undeclared (first use in this function); did you mean 'SW1'?
+  XGpioPs_SetDirectionPin(&GpioPs,SW0,0x00);//input for button
+                                  ^~~
+                                  SW1
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+14:59:19 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:72:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:92:2: error: 'GpioCnfPtr' undeclared (first use in this function)
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);
+  ^~~~~~~~~~
+../src/helloworld.c:92:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:93:34: error: 'GpioPs' undeclared (first use in this function); did you mean 'XGpioPs'?
+  status = XGpioPs_CfgInitialize(&GpioPs,GpioCnfPtr,GpioCnfPtr->BaseAddr);
+                                  ^~~~~~
+                                  XGpioPs
+../src/helloworld.c:101:34: error: 'SW0' undeclared (first use in this function); did you mean 'SW1'?
+  XGpioPs_SetDirectionPin(&GpioPs,SW0,0x00);//input for button
+                                  ^~~
+                                  SW1
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+14:59:29 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:72:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:102:34: error: 'SW0' undeclared (first use in this function); did you mean 'SW1'?
+  XGpioPs_SetDirectionPin(&GpioPs,SW0,0x00);//input for button
+                                  ^~~
+                                  SW1
+../src/helloworld.c:102:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+14:59:51 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:72:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30156	   1168	  22648	  53972	   d2d4	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:00:23 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:47:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:55:33: error: 'Output_Pin0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&Gpio, Output_Pin0, 1);
+                                 ^~~~~~~~~~~
+../src/helloworld.c:55:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:57:33: error: 'Output_Pin1' undeclared (first use in this function); did you mean 'Output_Pin0'?
+  XGpioPs_SetDirectionPin(&Gpio, Output_Pin1, 1);
+                                 ^~~~~~~~~~~
+                                 Output_Pin0
+../src/helloworld.c:61:33: error: 'Input_Pin' undeclared (first use in this function); did you mean 'Output_Pin1'?
+  XGpioPs_SetDirectionPin(&Gpio, Input_Pin, 0);
+                                 ^~~~~~~~~
+                                 Output_Pin1
+../src/helloworld.c:67:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:90:34: error: 'Input_Pin' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,Input_Pin,0x00);//input for button
+                                  ^~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+15:01:29 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:47:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:49:29: error: 'Input_Pin' undeclared (first use in this function)
+   if(XGpioPs_ReadPin(&Gpio, Input_Pin) == 0){
+                             ^~~~~~~~~
+../src/helloworld.c:49:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:50:28: error: 'Output_Pin0' undeclared (first use in this function); did you mean 'Input_Pin'?
+    XGpioPs_WritePin(&Gpio, Output_Pin0, 0x1);
+                            ^~~~~~~~~~~
+                            Input_Pin
+../src/helloworld.c:51:28: error: 'Output_Pin1' undeclared (first use in this function); did you mean 'Output_Pin0'?
+    XGpioPs_WritePin(&Gpio, Output_Pin1, 0x1);
+                            ^~~~~~~~~~~
+                            Output_Pin0
+../src/helloworld.c:52:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c:46:18: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+  XGpioPs_Config *ConfigPtr;
+                  ^~~~~~~~~
+../src/helloworld.c:45:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:75:34: error: 'Input_Pin' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,Input_Pin,0x00);//input for button
+                                  ^~~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+15:01:45 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:47:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:49:29: error: 'Input_Pin' undeclared (first use in this function)
+   if(XGpioPs_ReadPin(&Gpio, Input_Pin) == 0){
+                             ^~~~~~~~~
+../src/helloworld.c:49:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:50:28: error: 'Output_Pin0' undeclared (first use in this function); did you mean 'Input_Pin'?
+    XGpioPs_WritePin(&Gpio, Output_Pin0, 0x1);
+                            ^~~~~~~~~~~
+                            Input_Pin
+../src/helloworld.c:51:28: error: 'Output_Pin1' undeclared (first use in this function); did you mean 'Output_Pin0'?
+    XGpioPs_WritePin(&Gpio, Output_Pin1, 0x1);
+                            ^~~~~~~~~~~
+                            Output_Pin0
+../src/helloworld.c:52:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c:46:18: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+  XGpioPs_Config *ConfigPtr;
+                  ^~~~~~~~~
+../src/helloworld.c:45:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+15:02:01 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:47:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:49:29: error: 'Input_Pin' undeclared (first use in this function)
+   if(XGpioPs_ReadPin(&Gpio, Input_Pin) == 0){
+                             ^~~~~~~~~
+../src/helloworld.c:49:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:52:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c:46:18: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+  XGpioPs_Config *ConfigPtr;
+                  ^~~~~~~~~
+../src/helloworld.c:45:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+15:02:07 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:47:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:52:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c:46:18: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+  XGpioPs_Config *ConfigPtr;
+                  ^~~~~~~~~
+../src/helloworld.c:45:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29752	   1160	  22648	  53560	   d138	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:02:18 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:02:31 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:03:34 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:28:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:33:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: In function 'GpioPolledExample':
+../src/helloworld.c:47:18: warning: unused variable 'ConfigPtr' [-Wunused-variable]
+  XGpioPs_Config *ConfigPtr;
+                  ^~~~~~~~~
+../src/helloworld.c:46:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:66:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27172	   1152	  22648	  50972	   c71c	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:03:45 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:28:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:33:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:58:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27128	   1152	  22648	  50928	   c6f0	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:03:50 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:05:53 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:28:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:34:5: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+     usleep(1);
+     ^~~~~~
+../src/helloworld.c:36:24: error: 'GpioPs' undeclared (first use in this function); did you mean 'XGpioPs'?
+      XGpioPs_WritePin(&GpioPs,LED0,led);
+                        ^~~~~~
+                        XGpioPs
+../src/helloworld.c:36:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:65:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+15:06:07 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:29:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:35:5: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+     usleep(1);
+     ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:65:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27168	   1152	  22648	  50968	   c718	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:06:12 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:07:03 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:08:15 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:08:49 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:28:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:30:23: error: 'Gpio' undeclared (first use in this function); did you mean 'GpioPs'?
+   if(XGpioPs_ReadPin(&Gpio, SW1) == 0){
+                       ^~~~
+                       GpioPs
+../src/helloworld.c:30:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:33:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:58:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+15:08:52 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:27:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:29:23: error: 'Gpio' undeclared (first use in this function); did you mean 'GpioPs'?
+   if(XGpioPs_ReadPin(&Gpio, SW1) == 0){
+                       ^~~~
+                       GpioPs
+../src/helloworld.c:29:23: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:32:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+15:08:59 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:27:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c:32:4: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+    usleep(1000000);
+    ^~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27128	   1152	  22616	  50896	   c6d0	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:09:09 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:09:49 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:27:2: warning: implicit declaration of function 'initGpio' [-Wimplicit-function-declaration]
+  initGpio();
+  ^~~~~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:19:12: warning: 'GpioOutputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioOutputExample(void);
+            ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:20:12: warning: 'GpioInputExample' declared 'static' but never defined [-Wunused-function]
+ static int GpioInputExample(u32 *DataRead);
+            ^~~~~~~~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:55:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26956	   1152	  22616	  50724	   c624	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:09:52 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+15:24:37 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intr.d" -MT"src/intr.o" -o "src/intr.o" "../src/intr.c"
+'Finished building: ../src/intr.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/intr.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26956	   1152	  22616	  50724	   c624	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:24:38 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intr.d" -MT"src/intr.o" -o "src/intr.o" "../src/intr.c"
+'Finished building: ../src/intr.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/intr.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/intr.o: In function `main':
+C:\Users\DMH\Desktop\FPGA\V3_second_study\p2_Interrupt\interrupt\interrupt.sdk\GPIO\Debug/../src/intr.c:125: multiple definition of `main'
+./src/helloworld.o:C:\Users\DMH\Desktop\FPGA\V3_second_study\p2_Interrupt\interrupt\interrupt.sdk\GPIO\Debug/../src/helloworld.c:26: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: GPIO.elf] Error 1
+15:24:45 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/intr.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33532	   1928	  22648	  58108	   e2fc	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:26:56 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intr.d" -MT"src/intr.o" -o "src/intr.o" "../src/intr.c"
+../src/intr.c: In function 'main':
+../src/intr.c:33:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/intr.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/intr.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32928	   1928	  22648	  57504	   e0a0	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:27:31 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intr.d" -MT"src/intr.o" -o "src/intr.o" "../src/intr.c"
+../src/intr.c: In function 'main':
+../src/intr.c:33:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/intr.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/intr.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32928	   1936	  22632	  57496	   e098	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:34:49 **** Auto Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/intr.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../GPIO_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/intr.d" -MT"src/intr.o" -o "src/intr.o" "../src/intr.c"
+../src/intr.c: In function 'main':
+../src/intr.c:33:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+  int Status;
+      ^~~~~~
+'Finished building: ../src/intr.c'
+' '
+'Building target: GPIO.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../GPIO_bsp/ps7_cortexa9_0/lib -o "GPIO.elf"  ./src/helloworld.o ./src/intr.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: GPIO.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size GPIO.elf  |tee "GPIO.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  32928	   1936	  22632	  57496	   e098	GPIO.elf
+'Finished building: GPIO.elf.size'
+' '
+15:35:12 **** Incremental Build of configuration Debug for project GPIO ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

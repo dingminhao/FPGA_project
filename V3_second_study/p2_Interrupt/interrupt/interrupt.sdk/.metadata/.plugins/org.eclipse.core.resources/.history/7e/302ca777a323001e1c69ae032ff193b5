@@ -1,0 +1,156 @@
+
+/***************************** Include Files ********************************/
+
+#include "xparameters.h"
+#include "xgpiops.h"
+#include "xstatus.h"
+#include "xplatform_info.h"
+#include <xil_printf.h>
+
+/************************** Constant Definitions ****************************/
+
+#define GPIO_DEVICE_ID  	XPAR_XGPIOPS_0_DEVICE_ID
+
+#define LED_DELAY		10000000
+
+#define LED_MAX_BLINK		0x10	/* Number of times the LED Blinks */
+
+#define printf			xil_printf	/* Smalller foot-print printf */
+
+static int GpioOutputExample(void);
+static int GpioInputExample(u32 *DataRead);
+int GpioPolledExample(u16 DeviceId, u32 *DataRead);
+
+/************************** Variable Definitions **************************/
+static u32 Input_Pin; /* Switch button */
+static u32 Output_Pin; /* LED button */
+
+XGpioPs Gpio;	/* The driver instance for GPIO Device. */
+
+
+int main(void)
+{
+	int Status;
+	u32 InputData;
+
+	Status = GpioPolledExample(GPIO_DEVICE_ID, &InputData);
+	if (Status != XST_SUCCESS) {
+		printf("GPIO Polled Mode Example Test Failed\r\n");
+		return XST_FAILURE;
+	}
+
+	printf("Data read from GPIO Input is  0x%x \n\r", (int)InputData);
+	printf("Successfully ran GPIO Polled Mode Example Test\r\n");
+	return XST_SUCCESS;
+}
+
+
+int GpioPolledExample(u16 DeviceId, u32 *DataRead)
+{
+	int Status;
+	XGpioPs_Config *ConfigPtr;
+
+	/* Initialize the GPIO driver. */
+	ConfigPtr = XGpioPs_LookupConfig(GPIO_DEVICE_ID);
+	Status = XGpioPs_CfgInitialize(&Gpio, ConfigPtr,
+					ConfigPtr->BaseAddr);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	/* Run the Output Example. */
+	Status = GpioOutputExample();
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+//
+//	/* Run the Input Example. */
+//	Status = GpioInputExample(DataRead);
+//	if (Status != XST_SUCCESS) {
+//		return XST_FAILURE;
+//	}
+
+	return XST_SUCCESS;
+}
+
+static int GpioOutputExample(void)
+{
+	u32 Data;
+	volatile int Delay;
+	u32 LedLoop;
+
+	/*
+	 * Set the direction for the pin to be output and
+	 * Enable the Output enable for the LED Pin.
+	 */
+	XGpioPs_SetDirectionPin(&Gpio, Output_Pin, 1);
+	XGpioPs_SetOutputEnablePin(&Gpio, Output_Pin, 1);
+
+	/* Set the GPIO output to be low. */
+	XGpioPs_WritePin(&Gpio, Output_Pin, 0x0);
+
+
+	for (LedLoop = 0; LedLoop < LED_MAX_BLINK; LedLoop ++) {
+
+
+#ifndef __SIM__
+		/* Wait a small amount of time so the LED is visible. */
+		for (Delay = 0; Delay < LED_DELAY; Delay++);
+
+#endif
+		/* Set the GPIO Output to High. */
+		XGpioPs_WritePin(&Gpio, Output_Pin, 0x1);
+
+		/*
+		 * Read the state of the data and verify. If the data
+		 * read back is not the same as the data written then
+		 * return FAILURE.
+		 */
+		Data = XGpioPs_ReadPin(&Gpio, Output_Pin);
+		if (Data != 1 ) {
+			return XST_FAILURE;
+		}
+
+
+		/* Clear the GPIO Output. */
+		XGpioPs_WritePin(&Gpio, Output_Pin, 0x0);
+
+		/*
+		 * Read the state of the data and verify. If the data
+		 * read back is not the same as the data written then
+		 * return FAILURE.
+		 */
+		Data = XGpioPs_ReadPin(&Gpio, Output_Pin);
+		if (Data != 0) {
+			return XST_FAILURE;
+		}
+	}
+	return XST_SUCCESS;
+}
+
+/******************************************************************************/
+/**
+*
+* This function performs a test on the GPIO driver/device with the GPIO
+* configured as INPUT.
+*
+* @param	DataRead is the pointer where the data read from GPIO Input is
+*		returned
+*
+* @return	- XST_SUCCESS if the example has completed successfully.
+*		- XST_FAILURE if the example has failed.
+*
+* @note		None.
+*
+******************************************************************************/
+static int GpioInputExample(u32 *DataRead)
+{
+
+	/* Set the direction for the specified pin to be input. */
+	XGpioPs_SetDirectionPin(&Gpio, Input_Pin, 0x0);
+
+	/* Read the state of the data so that it can be  verified. */
+	*DataRead = XGpioPs_ReadPin(&Gpio, Input_Pin);
+
+	return XST_SUCCESS;
+}

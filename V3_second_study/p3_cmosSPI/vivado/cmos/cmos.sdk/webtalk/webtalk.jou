@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Tue Jul 18 16:11:54 2023
+# Process ID: 40660
+# Current directory: C:/Users/DMH/Desktop/FPGA/V3_second_study/p3_cmosSPI/vivado/cmos/cmos.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/DMH/Desktop/FPGA/V3_second_study/p3_cmosSPI/vivado/cmos/cmos.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/DMH/Desktop/FPGA/V3_second_study/p3_cmosSPI/vivado/cmos/cmos.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

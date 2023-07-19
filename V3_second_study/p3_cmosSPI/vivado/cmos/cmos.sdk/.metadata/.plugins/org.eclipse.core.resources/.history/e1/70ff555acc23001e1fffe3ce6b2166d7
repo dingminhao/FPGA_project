@@ -1,0 +1,8 @@
+#ifndef SRC_IMX222_H_
+#define SRC_IMX222_H_
+#include "xspips.h"
+int initIMX222(XSpiPs *spipsptr);
+
+
+
+#endif

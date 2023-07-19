@@ -1,0 +1,40 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port vsync -pg 1 -y 0 -defaultsOSRD
+preplace port cmos_rst -pg 1 -y 340 -defaultsOSRD
+preplace port DDR -pg 1 -y 130 -defaultsOSRD
+preplace port spi_sclk -pg 1 -y 110 -defaultsOSRD
+preplace port spi_cs -pg 1 -y 290 -defaultsOSRD
+preplace port hsync -pg 1 -y 20 -defaultsOSRD
+preplace port rgbclk_in -pg 1 -y -160 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 50 -defaultsOSRD
+preplace port spi_miso -pg 1 -y 210 -defaultsOSRD
+preplace port spi_mosi -pg 1 -y 170 -defaultsOSRD
+preplace portBus bayer -pg 1 -y 40 -defaultsOSRD
+preplace inst gen_sync_0 -pg 1 -lvl 1 -y -60 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -y -120 -defaultsOSRD
+preplace inst mux_15_0 -pg 1 -lvl 3 -y 260 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -y 20 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 3 1 860
+preplace netloc gen_sync_0_hsync 1 1 3 80 -50 310J -170 880J
+preplace netloc gen_sync_0_vsync 1 1 3 90J -40 320J -160 870
+preplace netloc mux_15_0_a 1 3 1 820
+preplace netloc mux_15_0_b 1 0 4 -120 -140 100J -30 330J -140 810
+preplace netloc processing_system7_0_GPIO_O 1 2 2 340 -150 860
+preplace netloc bayer_1 1 0 1 -130
+preplace netloc SPI0_MISO_I_0_1 1 0 4 NJ 210 N 210 310 360 800
+preplace netloc processing_system7_0_SPI0_MOSI_O 1 3 1 840
+preplace netloc processing_system7_0_FIXED_IO 1 3 1 870
+preplace netloc clk_wiz_0_clk_out1 1 0 3 -130 -150 110J -60 300
+preplace netloc processing_system7_0_SPI0_SS_O 1 3 1 830
+preplace netloc processing_system7_0_SPI0_SCLK_O 1 3 1 850
+preplace netloc rgbclk_in_1 1 0 2 N -160 120
+levelinfo -pg 1 -150 -20 210 650 900 -top -360 -bot 1100
+"
+}
+{
+   "da_clkrst_cnt":"2",
+   "da_ps7_cnt":"1"
+}

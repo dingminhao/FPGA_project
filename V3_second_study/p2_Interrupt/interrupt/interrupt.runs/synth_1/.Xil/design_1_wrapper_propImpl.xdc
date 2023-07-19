@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/DMH/Desktop/FPGA/V3_second_study/p2_Interrupt/interrupt/interrupt.srcs/constrs_1/new/csr.xdc rfile:../../../interrupt.srcs/constrs_1/new/csr.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G20 [get_ports GPIO_0_0_tri_io[0]]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN G18 [get_ports GPIO_0_0_tri_io[1]]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN T19 [get_ports GPIO_0_0_tri_io[2]]

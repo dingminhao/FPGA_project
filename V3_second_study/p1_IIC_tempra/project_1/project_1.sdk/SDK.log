@@ -1,0 +1,290 @@
+20:55:31 INFO  : Registering command handlers for SDK TCF services
+20:55:31 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\DMH\Desktop\FPGA\V3_second_study\p1_IIC_tempra\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+20:55:34 INFO  : XSCT server has started successfully.
+20:55:34 INFO  : Successfully done setting XSCT server connection channel  
+20:55:34 INFO  : Successfully done setting SDK workspace  
+20:55:34 INFO  : Processing command line option -hwspec C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper.hdf.
+20:56:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:56:58 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203367371A' is selected.
+20:56:58 INFO  : 'jtag frequency' command is executed.
+20:56:58 INFO  : Sourcing of 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+20:56:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1' command is executed.
+20:57:02 INFO  : FPGA configured successfully with bitstream "C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+20:57:03 INFO  : Context for 'APU' is selected.
+20:57:03 INFO  : Hardware design information is loaded from 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+20:57:03 INFO  : 'configparams force-mem-access 1' command is executed.
+20:57:04 INFO  : Context for 'APU' is selected.
+20:57:04 INFO  : 'stop' command is executed.
+20:57:04 INFO  : 'ps7_init' command is executed.
+20:57:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:57:05 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+20:57:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:57:05 INFO  : The application 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:57:05 INFO  : 'configparams force-mem-access 0' command is executed.
+20:57:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1
+fpga -file C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+loadhw -hw C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+stop
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+dow C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:57:06 INFO  : Memory regions updated for context APU
+20:57:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:57:06 INFO  : 'con' command is executed.
+20:57:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+con
+----------------End of Script----------------
+
+20:57:07 INFO  : Launch script is exported to file 'C:\Users\DMH\Desktop\FPGA\V3_second_study\p1_IIC_tempra\project_1\project_1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+21:20:11 INFO  : Disconnected from the channel tcfchan#1.
+21:20:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:20:12 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203367371A' is selected.
+21:20:12 INFO  : 'jtag frequency' command is executed.
+21:20:12 INFO  : Sourcing of 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:20:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1' command is executed.
+21:20:15 INFO  : FPGA configured successfully with bitstream "C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:20:15 INFO  : Context for 'APU' is selected.
+21:20:16 INFO  : Hardware design information is loaded from 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+21:20:16 INFO  : 'configparams force-mem-access 1' command is executed.
+21:20:16 INFO  : Context for 'APU' is selected.
+21:20:16 INFO  : 'stop' command is executed.
+21:20:16 INFO  : 'ps7_init' command is executed.
+21:20:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:20:17 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:20:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:20:17 INFO  : The application 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:20:17 INFO  : 'configparams force-mem-access 0' command is executed.
+21:20:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1
+fpga -file C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+loadhw -hw C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+stop
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+dow C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:20:17 INFO  : Memory regions updated for context APU
+21:20:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:20:17 INFO  : 'con' command is executed.
+21:20:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+con
+----------------End of Script----------------
+
+21:20:17 INFO  : Launch script is exported to file 'C:\Users\DMH\Desktop\FPGA\V3_second_study\p1_IIC_tempra\project_1\project_1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+21:22:37 INFO  : Disconnected from the channel tcfchan#2.
+21:22:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:22:38 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203367371A' is selected.
+21:22:38 INFO  : 'jtag frequency' command is executed.
+21:22:38 INFO  : Sourcing of 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:22:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1' command is executed.
+21:22:40 INFO  : FPGA configured successfully with bitstream "C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:22:40 INFO  : Context for 'APU' is selected.
+21:22:42 INFO  : Hardware design information is loaded from 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+21:22:42 INFO  : 'configparams force-mem-access 1' command is executed.
+21:22:42 INFO  : Context for 'APU' is selected.
+21:22:42 INFO  : 'stop' command is executed.
+21:22:42 INFO  : 'ps7_init' command is executed.
+21:22:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:22:42 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:22:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:22:42 INFO  : The application 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:22:42 INFO  : 'configparams force-mem-access 0' command is executed.
+21:22:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1
+fpga -file C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+loadhw -hw C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+stop
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+dow C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:22:42 INFO  : Memory regions updated for context APU
+21:22:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:22:42 INFO  : 'con' command is executed.
+21:22:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+con
+----------------End of Script----------------
+
+21:22:42 INFO  : Launch script is exported to file 'C:\Users\DMH\Desktop\FPGA\V3_second_study\p1_IIC_tempra\project_1\project_1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+21:26:04 INFO  : Disconnected from the channel tcfchan#3.
+21:26:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:26:06 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203367371A' is selected.
+21:26:06 INFO  : 'jtag frequency' command is executed.
+21:26:06 INFO  : Sourcing of 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:26:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1' command is executed.
+21:26:08 INFO  : FPGA configured successfully with bitstream "C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:26:08 INFO  : Context for 'APU' is selected.
+21:26:10 INFO  : Hardware design information is loaded from 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+21:26:10 INFO  : 'configparams force-mem-access 1' command is executed.
+21:26:10 INFO  : Context for 'APU' is selected.
+21:26:10 INFO  : 'stop' command is executed.
+21:26:10 INFO  : 'ps7_init' command is executed.
+21:26:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:26:10 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:26:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:26:10 INFO  : The application 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:26:10 INFO  : 'configparams force-mem-access 0' command is executed.
+21:26:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1
+fpga -file C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+loadhw -hw C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+stop
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+dow C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:26:10 INFO  : Memory regions updated for context APU
+21:26:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:26:10 INFO  : 'con' command is executed.
+21:26:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+con
+----------------End of Script----------------
+
+21:26:10 INFO  : Launch script is exported to file 'C:\Users\DMH\Desktop\FPGA\V3_second_study\p1_IIC_tempra\project_1\project_1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+21:34:11 INFO  : Disconnected from the channel tcfchan#4.
+21:34:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:34:12 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203367371A' is selected.
+21:34:12 INFO  : 'jtag frequency' command is executed.
+21:34:12 INFO  : Sourcing of 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:34:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1' command is executed.
+21:34:14 INFO  : FPGA configured successfully with bitstream "C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:34:15 INFO  : Context for 'APU' is selected.
+21:34:16 INFO  : Hardware design information is loaded from 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+21:34:16 INFO  : 'configparams force-mem-access 1' command is executed.
+21:34:16 INFO  : Context for 'APU' is selected.
+21:34:16 INFO  : 'stop' command is executed.
+21:34:16 INFO  : 'ps7_init' command is executed.
+21:34:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:34:16 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:34:16 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:34:17 INFO  : The application 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:34:17 INFO  : 'configparams force-mem-access 0' command is executed.
+21:34:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1
+fpga -file C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+loadhw -hw C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+stop
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+dow C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:34:17 INFO  : Memory regions updated for context APU
+21:34:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:34:17 INFO  : 'con' command is executed.
+21:34:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+con
+----------------End of Script----------------
+
+21:34:17 INFO  : Launch script is exported to file 'C:\Users\DMH\Desktop\FPGA\V3_second_study\p1_IIC_tempra\project_1\project_1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+21:34:58 INFO  : Disconnected from the channel tcfchan#5.
+21:34:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:34:59 INFO  : Jtag cable 'Digilent JTAG-SMT1 210203367371A' is selected.
+21:34:59 INFO  : 'jtag frequency' command is executed.
+21:34:59 INFO  : Sourcing of 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl' is done.
+21:34:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1' command is executed.
+21:35:02 INFO  : FPGA configured successfully with bitstream "C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+21:35:02 INFO  : Context for 'APU' is selected.
+21:35:03 INFO  : Hardware design information is loaded from 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+21:35:03 INFO  : 'configparams force-mem-access 1' command is executed.
+21:35:03 INFO  : Context for 'APU' is selected.
+21:35:03 INFO  : 'stop' command is executed.
+21:35:04 INFO  : 'ps7_init' command is executed.
+21:35:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:35:04 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+21:35:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:35:04 INFO  : The application 'C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:35:04 INFO  : 'configparams force-mem-access 0' command is executed.
+21:35:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A" && level==0} -index 1
+fpga -file C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+loadhw -hw C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+stop
+ps7_init
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+dow C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/IIC/Debug/IIC.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:35:04 INFO  : Memory regions updated for context APU
+21:35:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:35:04 INFO  : 'con' command is executed.
+21:35:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203367371A"} -index 0
+con
+----------------End of Script----------------
+
+21:35:04 INFO  : Launch script is exported to file 'C:\Users\DMH\Desktop\FPGA\V3_second_study\p1_IIC_tempra\project_1\project_1.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_on_local.tcl'
+21:45:22 INFO  : Disconnected from the channel tcfchan#6.
+21:45:55 INFO  : Registering command handlers for SDK TCF services
+21:45:56 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\DMH\Desktop\FPGA\V3_second_study\p1_IIC_tempra\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+21:45:59 INFO  : XSCT server has started successfully.
+21:45:59 INFO  : Successfully done setting XSCT server connection channel  
+21:45:59 INFO  : Successfully done setting SDK workspace  
+21:45:59 INFO  : Processing command line option -hwspec C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper.hdf.
+21:45:59 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+21:48:53 INFO  : Registering command handlers for SDK TCF services
+21:48:54 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\DMH\Desktop\FPGA\V3_second_study\p1_IIC_tempra\project_1\project_1.sdk\temp_xsdb_launch_script.tcl
+21:48:56 INFO  : XSCT server has started successfully.
+21:48:56 INFO  : Successfully done setting XSCT server connection channel  
+21:48:56 INFO  : Successfully done setting SDK workspace  
+21:48:56 INFO  : Processing command line option -hwspec C:/Users/DMH/Desktop/FPGA/V3_second_study/p1_IIC_tempra/project_1/project_1.sdk/design_1_wrapper.hdf.
+21:48:56 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.

@@ -1,0 +1,2196 @@
+17:36:04 **** Build of project cmos_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/spips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/spips_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/spips_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling spips"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+17:36:35 **** Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22568	  43060	   a834	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+17:36:38 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:38:59 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:39:09 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22568	  43060	   a834	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:04:41 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22568	  43060	   a834	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:05:29 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:53:24: warning: 'config' defined but not used [-Wunused-variable]
+ static XSpiPs_Config * config;
+                        ^~~~~~
+../src/helloworld.c:52:15: warning: 'spips' defined but not used [-Wunused-variable]
+ static XSpiPs spips;
+               ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22632	  43124	   a874	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:08:00 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:54:24: warning: 'SpipsCfgPtr' defined but not used [-Wunused-variable]
+ static XSpiPs_Config * SpipsCfgPtr;
+                        ^~~~~~~~~~~
+../src/helloworld.c:53:15: warning: 'Spips' defined but not used [-Wunused-variable]
+ static XSpiPs Spips;
+               ^~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19348	   1144	  22632	  43124	   a874	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:08:26 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initSPI':
+../src/helloworld.c:73:2: error: unknown type name 'reutrn'; did you mean 'restrict'?
+  reutrn Status;
+  ^~~~~~
+  restrict
+../src/helloworld.c:73:9: error: redeclaration of 'Status' with no linkage
+  reutrn Status;
+         ^~~~~~
+../src/helloworld.c:69:6: note: previous declaration of 'Status' was here
+  int Status;
+      ^~~~~~
+../src/helloworld.c:73:9: warning: unused variable 'Status' [-Wunused-variable]
+  reutrn Status;
+         ^~~~~~
+../src/helloworld.c:74:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/helloworld.c:54:24: warning: 'SpipsCfgPtr' defined but not used [-Wunused-variable]
+ static XSpiPs_Config * SpipsCfgPtr;
+                        ^~~~~~~~~~~
+../src/helloworld.c:53:15: warning: 'Spips' defined but not used [-Wunused-variable]
+ static XSpiPs Spips;
+               ^~~~~
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+18:08:37 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:54:24: warning: 'SpipsCfgPtr' defined but not used [-Wunused-variable]
+ static XSpiPs_Config * SpipsCfgPtr;
+                        ^~~~~~~~~~~
+../src/helloworld.c:53:15: warning: 'Spips' defined but not used [-Wunused-variable]
+ static XSpiPs Spips;
+               ^~~~~
+../src/helloworld.c: In function 'initSPI':
+../src/helloworld.c:73:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19380	   1144	  22632	  43156	   a894	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:10:55 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initSPI':
+../src/helloworld.c:70:16: error: too few arguments to function 'XSpiPs_LookupConfig'
+  SpipsCfgPtr = XSpiPs_LookupConfig()
+                ^~~~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:51:0:
+../../cmos_bsp/ps7_cortexa9_0/include/xspips.h:651:16: note: declared here
+ XSpiPs_Config *XSpiPs_LookupConfig(u16 DeviceId);
+                ^~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:71:2: error: expected ';' before 'SpipsCfgPtr'
+  SpipsCfgPtr = XSpiPs_CfgInitialize(&Spips, SpipsCfgPtr, Spips)
+  ^~~~~~~~~~~
+../src/helloworld.c:69:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/helloworld.c:75:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/helloworld.c:53:15: warning: 'Spips' defined but not used [-Wunused-variable]
+ static XSpiPs Spips;
+               ^~~~~
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+18:12:52 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initSPI':
+../src/helloworld.c:71:16: error: too few arguments to function 'XSpiPs_LookupConfig'
+  SpipsCfgPtr = XSpiPs_LookupConfig()
+                ^~~~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:51:0:
+../../cmos_bsp/ps7_cortexa9_0/include/xspips.h:651:16: note: declared here
+ XSpiPs_Config *XSpiPs_LookupConfig(u16 DeviceId);
+                ^~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:72:2: error: expected ';' before 'SpipsCfgPtr'
+  SpipsCfgPtr = XSpiPs_CfgInitialize(&Spips, SpipsCfgPtr, Spips)
+  ^~~~~~~~~~~
+../src/helloworld.c:70:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/helloworld.c:76:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/helloworld.c:53:15: warning: 'Spips' defined but not used [-Wunused-variable]
+ static XSpiPs Spips;
+               ^~~~~
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+18:13:03 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initSPI':
+../src/helloworld.c:71:16: error: too few arguments to function 'XSpiPs_LookupConfig'
+  SpipsCfgPtr = XSpiPs_LookupConfig()
+                ^~~~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:51:0:
+../../cmos_bsp/ps7_cortexa9_0/include/xspips.h:651:16: note: declared here
+ XSpiPs_Config *XSpiPs_LookupConfig(u16 DeviceId);
+                ^~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:72:2: error: expected ';' before 'SpipsCfgPtr'
+  SpipsCfgPtr = XSpiPs_CfgInitialize(&Spips, SpipsCfgPtr, Spips)
+  ^~~~~~~~~~~
+../src/helloworld.c:70:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/helloworld.c:76:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/helloworld.c:53:15: warning: 'Spips' defined but not used [-Wunused-variable]
+ static XSpiPs Spips;
+               ^~~~~
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+18:13:08 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initSPI':
+../src/helloworld.c:72:2: error: expected ';' before 'SpipsCfgPtr'
+  SpipsCfgPtr = XSpiPs_CfgInitialize(&Spips, SpipsCfgPtr, Spips)
+  ^~~~~~~~~~~
+../src/helloworld.c:70:6: warning: unused variable 'Status' [-Wunused-variable]
+  int Status;
+      ^~~~~~
+../src/helloworld.c:76:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/helloworld.c:53:15: warning: 'Spips' defined but not used [-Wunused-variable]
+ static XSpiPs Spips;
+               ^~~~~
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+18:13:21 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initSPI':
+../src/helloworld.c:75:9: warning: 'Status' is used uninitialized in this function [-Wuninitialized]
+  return Status;
+         ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23508	   1160	  22632	  47300	   b8c4	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:13:38 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23512	   1160	  22632	  47304	   b8c8	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:14:18 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23552	   1160	  22632	  47344	   b8f0	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:14:34 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23552	   1160	  22632	  47344	   b8f0	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:44:26 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23612	   1160	  22632	  47404	   b92c	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:46:53 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:3:16: error: unknown type name 'XSpiPs'
+ int initIMX222(XSpiPs *spipsptr){
+                ^~~~~~
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+18:47:30 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:3:16: error: unknown type name 'XSpiPs'
+ int initIMX222(XSpiPs *spipsptr){
+                ^~~~~~
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+18:47:33 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c: In function 'initIMX222':
+../src/imx222.c:6:9: warning: 'status' is used uninitialized in this function [-Wuninitialized]
+  return status;
+         ^~~~~~
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23648	   1160	  22632	  47440	   b950	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:47:37 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c: In function 'initIMX222':
+../src/imx222.c:6:9: warning: 'status' is used uninitialized in this function [-Wuninitialized]
+  return status;
+         ^~~~~~
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23648	   1160	  22632	  47440	   b950	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+18:51:12 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:3:13: error: 'REG_NUM' undeclared here (not in a function); did you mean 'XREG_CP0'?
+ u8 spi_wreg[REG_NUM][REG_BYTE]={
+             ^~~~~~~
+             XREG_CP0
+../src/imx222.c:3:22: error: 'REG_BYTE' undeclared here (not in a function); did you mean 'REG_NUM'?
+ u8 spi_wreg[REG_NUM][REG_BYTE]={
+                      ^~~~~~~~
+                      REG_NUM
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+19:31:45 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:4:22: error: 'REG_BYTE' undeclared here (not in a function); did you mean 'REG_NUM'?
+ u8 spi_wreg[REG_NUM][REG_BYTE]={
+                      ^~~~~~~~
+                      REG_NUM
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+19:31:49 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:3:0: warning: "REG_NUM" redefined
+ #define REG_NUM
+ 
+In file included from ../src/imx222.c:1:0:
+../src/imx222.h:4:0: note: this is the location of the previous definition
+ #define REG_NUM 29
+ 
+../src/imx222.c: In function 'initIMX222':
+../src/imx222.c:38:9: warning: 'status' is used uninitialized in this function [-Wuninitialized]
+  return status;
+         ^~~~~~
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23648	   1248	  22632	  47528	   b9a8	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+19:32:53 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:3:0: warning: "REG_NUM" redefined
+ #define REG_NUM
+ 
+In file included from ../src/imx222.c:1:0:
+../src/imx222.h:4:0: note: this is the location of the previous definition
+ #define REG_NUM 29
+ 
+../src/imx222.c:41:14: error: expected ';', ',' or ')' before numeric constant
+ u8 f_to_l(u8 8){
+              ^
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:19:03 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:4:0: warning: "REG_NUM" redefined
+ #define REG_NUM
+ 
+In file included from ../src/imx222.c:1:0:
+../src/imx222.h:4:0: note: this is the location of the previous definition
+ #define REG_NUM 29
+ 
+../src/imx222.c:42:14: error: expected ';', ',' or ')' before numeric constant
+ u8 f_to_l(u8 8){
+              ^
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:19:19 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+In file included from ../src/imx222.c:2:0:
+../../cmos_bsp/ps7_cortexa9_0/include/xbasic_types.h:111:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../cmos_bsp/ps7_cortexa9_0/include/xbasic_types.h:112:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/imx222.c:4:0: warning: "REG_NUM" redefined
+ #define REG_NUM
+ 
+In file included from ../src/imx222.c:1:0:
+../src/imx222.h:4:0: note: this is the location of the previous definition
+ #define REG_NUM 29
+ 
+../src/imx222.c:42:14: error: expected ';', ',' or ')' before numeric constant
+ u8 f_to_l(u8 8){
+              ^
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:19:46 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+In file included from ../src/imx222.c:2:0:
+../../cmos_bsp/ps7_cortexa9_0/include/xbasic_types.h:111:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../cmos_bsp/ps7_cortexa9_0/include/xbasic_types.h:112:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/imx222.c:43:14: error: expected ';', ',' or ')' before numeric constant
+ u8 f_to_l(u8 8){
+              ^
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:20:24 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:2:10: fatal error: xil_type.h.h: No such file or directory
+ #include <xil_type.h.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:20:27 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:2:10: fatal error: xil_type.h.h: No such file or directory
+ #include <xil_type.h.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:20:54 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:2:10: fatal error: xil_type.h.h: No such file or directory
+ #include <xil_type.h.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:21:50 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:2:10: fatal error: xil_type.h.h: No such file or directory
+ #include <xil_type.h.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:21:56 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:2:10: fatal error: xil_type.h.h: No such file or directory
+ #include <xil_type.h.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:26:41 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:2:10: fatal error: xil_type.h.h: No such file or directory
+ #include <xil_type.h.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:27:51 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:2:10: fatal error: xil_type.h.h: No such file or directory
+ #include <xil_type.h.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:33:06 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:2:10: fatal error: xil_type.h.h: No such file or directory
+ #include <xil_type.h.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:34:11 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c:2:10: fatal error: xil_type.h: No such file or directory
+ #include <xil_type.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:34:32 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c: In function 'initIMX222':
+../src/imx222.c:40:21: warning: implicit declaration of function 'f_to_l' [-Wimplicit-function-declaration]
+    spi_wreg[i][j] = f_to_l(spi_wreg[i][j]);
+                     ^~~~~~
+../src/imx222.c: At top level:
+../src/imx222.c:52:4: error: conflicting types for 'f_to_l'
+ u8 f_to_l(u8 num){
+    ^~~~~~
+../src/imx222.c:40:21: note: previous implicit declaration of 'f_to_l' was here
+    spi_wreg[i][j] = f_to_l(spi_wreg[i][j]);
+                     ^~~~~~
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:35:03 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c: In function 'initIMX222':
+../src/imx222.c:40:21: warning: implicit declaration of function 'f_to_l' [-Wimplicit-function-declaration]
+    spi_wreg[i][j] = f_to_l(spi_wreg[i][j]);
+                     ^~~~~~
+../src/imx222.c: At top level:
+../src/imx222.c:52:4: error: conflicting types for 'f_to_l'
+ u8 f_to_l(u8 num){
+    ^~~~~~
+../src/imx222.c:40:21: note: previous implicit declaration of 'f_to_l' was here
+    spi_wreg[i][j] = f_to_l(spi_wreg[i][j]);
+                     ^~~~~~
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:35:15 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c: In function 'f_to_l':
+../src/imx222.c:5:1: error: parameter 'spi_wreg' is initialized
+ u8 spi_wreg[REG_NUM][REG_BYTE]={
+ ^~
+../src/imx222.c:6:3: warning: braces around scalar initializer
+   { 0x02, 0x00, 0x31 }, //standby
+   ^
+../src/imx222.c:6:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:6:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0x02, 0x00, 0x31 }, //standby
+     ^~~~
+../src/imx222.c:6:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:6:11: warning: excess elements in scalar initializer
+   { 0x02, 0x00, 0x31 }, //standby
+           ^~~~
+../src/imx222.c:6:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:6:17: warning: excess elements in scalar initializer
+   { 0x02, 0x00, 0x31 }, //standby
+                 ^~~~
+../src/imx222.c:6:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:7:3: warning: braces around scalar initializer
+   { 0x02, 0x01,0x01},  // vs reverse
+   ^
+../src/imx222.c:7:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:7:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0x02, 0x01,0x01},  // vs reverse
+     ^~~~
+../src/imx222.c:7:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:7:11: warning: excess elements in scalar initializer
+   { 0x02, 0x01,0x01},  // vs reverse
+           ^~~~
+../src/imx222.c:7:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:7:16: warning: excess elements in scalar initializer
+   { 0x02, 0x01,0x01},  // vs reverse
+                ^~~~
+../src/imx222.c:7:16: note: (near initialization for 'spi_wreg')
+../src/imx222.c:7:3: warning: excess elements in scalar initializer
+   { 0x02, 0x01,0x01},  // vs reverse
+   ^
+../src/imx222.c:7:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:8:3: warning: braces around scalar initializer
+   { 0X02, 0x02, 0xF }, //1080p
+   ^
+../src/imx222.c:8:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:8:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x02, 0xF }, //1080p
+     ^~~~
+../src/imx222.c:8:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:8:11: warning: excess elements in scalar initializer
+   { 0X02, 0x02, 0xF }, //1080p
+           ^~~~
+../src/imx222.c:8:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:8:17: warning: excess elements in scalar initializer
+   { 0X02, 0x02, 0xF }, //1080p
+                 ^~~
+../src/imx222.c:8:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:8:3: warning: excess elements in scalar initializer
+   { 0X02, 0x02, 0xF }, //1080p
+   ^
+../src/imx222.c:8:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:9:3: warning: braces around scalar initializer
+   { 0X02, 0x03, 0x4c }, //2
+   ^
+../src/imx222.c:9:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:9:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x03, 0x4c }, //2
+     ^~~~
+../src/imx222.c:9:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:9:11: warning: excess elements in scalar initializer
+   { 0X02, 0x03, 0x4c }, //2
+           ^~~~
+../src/imx222.c:9:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:9:17: warning: excess elements in scalar initializer
+   { 0X02, 0x03, 0x4c }, //2
+                 ^~~~
+../src/imx222.c:9:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:9:3: warning: excess elements in scalar initializer
+   { 0X02, 0x03, 0x4c }, //2
+   ^
+../src/imx222.c:9:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:10:3: warning: braces around scalar initializer
+   { 0X02, 0x04, 0x04 }, //3
+   ^
+../src/imx222.c:10:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:10:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x04, 0x04 }, //3
+     ^~~~
+../src/imx222.c:10:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:10:11: warning: excess elements in scalar initializer
+   { 0X02, 0x04, 0x04 }, //3
+           ^~~~
+../src/imx222.c:10:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:10:17: warning: excess elements in scalar initializer
+   { 0X02, 0x04, 0x04 }, //3
+                 ^~~~
+../src/imx222.c:10:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:10:3: warning: excess elements in scalar initializer
+   { 0X02, 0x04, 0x04 }, //3
+   ^
+../src/imx222.c:10:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:11:3: warning: braces around scalar initializer
+   { 0X02, 0x05, 0x65 }, //4
+   ^
+../src/imx222.c:11:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:11:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x05, 0x65 }, //4
+     ^~~~
+../src/imx222.c:11:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:11:11: warning: excess elements in scalar initializer
+   { 0X02, 0x05, 0x65 }, //4
+           ^~~~
+../src/imx222.c:11:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:11:17: warning: excess elements in scalar initializer
+   { 0X02, 0x05, 0x65 }, //4
+                 ^~~~
+../src/imx222.c:11:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:11:3: warning: excess elements in scalar initializer
+   { 0X02, 0x05, 0x65 }, //4
+   ^
+../src/imx222.c:11:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:12:3: warning: braces around scalar initializer
+   { 0X02, 0x06, 0x04 }, //5
+   ^
+../src/imx222.c:12:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:12:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x06, 0x04 }, //5
+     ^~~~
+../src/imx222.c:12:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:12:11: warning: excess elements in scalar initializer
+   { 0X02, 0x06, 0x04 }, //5
+           ^~~~
+../src/imx222.c:12:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:12:17: warning: excess elements in scalar initializer
+   { 0X02, 0x06, 0x04 }, //5
+                 ^~~~
+../src/imx222.c:12:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:12:3: warning: excess elements in scalar initializer
+   { 0X02, 0x06, 0x04 }, //5
+   ^
+../src/imx222.c:12:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:13:3: warning: braces around scalar initializer
+   { 0X02, 0x11, 0x00 },//6
+   ^
+../src/imx222.c:13:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:13:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x11, 0x00 },//6
+     ^~~~
+../src/imx222.c:13:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:13:11: warning: excess elements in scalar initializer
+   { 0X02, 0x11, 0x00 },//6
+           ^~~~
+../src/imx222.c:13:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:13:17: warning: excess elements in scalar initializer
+   { 0X02, 0x11, 0x00 },//6
+                 ^~~~
+../src/imx222.c:13:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:13:3: warning: excess elements in scalar initializer
+   { 0X02, 0x11, 0x00 },//6
+   ^
+../src/imx222.c:13:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:14:3: warning: braces around scalar initializer
+   { 0X02, 0x12, 0x82 }, //7
+   ^
+../src/imx222.c:14:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:14:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x12, 0x82 }, //7
+     ^~~~
+../src/imx222.c:14:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:14:11: warning: excess elements in scalar initializer
+   { 0X02, 0x12, 0x82 }, //7
+           ^~~~
+../src/imx222.c:14:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:14:17: warning: excess elements in scalar initializer
+   { 0X02, 0x12, 0x82 }, //7
+                 ^~~~
+../src/imx222.c:14:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:14:3: warning: excess elements in scalar initializer
+   { 0X02, 0x12, 0x82 }, //7
+   ^
+../src/imx222.c:14:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:15:3: warning: braces around scalar initializer
+   { 0X02, 0x14, 0x00 }, //8
+   ^
+../src/imx222.c:15:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:15:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x14, 0x00 }, //8
+     ^~~~
+../src/imx222.c:15:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:15:11: warning: excess elements in scalar initializer
+   { 0X02, 0x14, 0x00 }, //8
+           ^~~~
+../src/imx222.c:15:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:15:17: warning: excess elements in scalar initializer
+   { 0X02, 0x14, 0x00 }, //8
+                 ^~~~
+../src/imx222.c:15:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:15:3: warning: excess elements in scalar initializer
+   { 0X02, 0x14, 0x00 }, //8
+   ^
+../src/imx222.c:15:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:16:3: warning: braces around scalar initializer
+   { 0X02, 0x15, 0x00 }, //9
+   ^
+../src/imx222.c:16:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:16:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x15, 0x00 }, //9
+     ^~~~
+../src/imx222.c:16:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:16:11: warning: excess elements in scalar initializer
+   { 0X02, 0x15, 0x00 }, //9
+           ^~~~
+../src/imx222.c:16:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:16:17: warning: excess elements in scalar initializer
+   { 0X02, 0x15, 0x00 }, //9
+                 ^~~~
+../src/imx222.c:16:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:16:3: warning: excess elements in scalar initializer
+   { 0X02, 0x15, 0x00 }, //9
+   ^
+../src/imx222.c:16:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:17:3: warning: braces around scalar initializer
+   { 0X02, 0x16, 0x3C }, //10
+   ^
+../src/imx222.c:17:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:17:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x16, 0x3C }, //10
+     ^~~~
+../src/imx222.c:17:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:17:11: warning: excess elements in scalar initializer
+   { 0X02, 0x16, 0x3C }, //10
+           ^~~~
+../src/imx222.c:17:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:17:17: warning: excess elements in scalar initializer
+   { 0X02, 0x16, 0x3C }, //10
+                 ^~~~
+../src/imx222.c:17:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:17:3: warning: excess elements in scalar initializer
+   { 0X02, 0x16, 0x3C }, //10
+   ^
+../src/imx222.c:17:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:18:3: warning: braces around scalar initializer
+   { 0X02, 0x17, 0x00 }, //11
+   ^
+../src/imx222.c:18:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:18:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x17, 0x00 }, //11
+     ^~~~
+../src/imx222.c:18:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:18:11: warning: excess elements in scalar initializer
+   { 0X02, 0x17, 0x00 }, //11
+           ^~~~
+../src/imx222.c:18:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:18:17: warning: excess elements in scalar initializer
+   { 0X02, 0x17, 0x00 }, //11
+                 ^~~~
+../src/imx222.c:18:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:18:3: warning: excess elements in scalar initializer
+   { 0X02, 0x17, 0x00 }, //11
+   ^
+../src/imx222.c:18:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:19:3: warning: braces around scalar initializer
+   { 0X02, 0x18, 0xC0 }, //12
+   ^
+../src/imx222.c:19:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:19:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x18, 0xC0 }, //12
+     ^~~~
+../src/imx222.c:19:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:19:11: warning: excess elements in scalar initializer
+   { 0X02, 0x18, 0xC0 }, //12
+           ^~~~
+../src/imx222.c:19:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:19:17: warning: excess elements in scalar initializer
+   { 0X02, 0x18, 0xC0 }, //12
+                 ^~~~
+../src/imx222.c:19:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:19:3: warning: excess elements in scalar initializer
+   { 0X02, 0x18, 0xC0 }, //12
+   ^
+../src/imx222.c:19:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:20:3: warning: braces around scalar initializer
+   { 0X02, 0x19, 0x07 }, //13
+   ^
+../src/imx222.c:20:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:20:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x19, 0x07 }, //13
+     ^~~~
+../src/imx222.c:20:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:20:11: warning: excess elements in scalar initializer
+   { 0X02, 0x19, 0x07 }, //13
+           ^~~~
+../src/imx222.c:20:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:20:17: warning: excess elements in scalar initializer
+   { 0X02, 0x19, 0x07 }, //13
+                 ^~~~
+../src/imx222.c:20:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:20:3: warning: excess elements in scalar initializer
+   { 0X02, 0x19, 0x07 }, //13
+   ^
+../src/imx222.c:20:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:21:3: warning: braces around scalar initializer
+   { 0X02, 0x1A, 0x51 }, //14
+   ^
+../src/imx222.c:21:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:21:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x1A, 0x51 }, //14
+     ^~~~
+../src/imx222.c:21:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:21:11: warning: excess elements in scalar initializer
+   { 0X02, 0x1A, 0x51 }, //14
+           ^~~~
+../src/imx222.c:21:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:21:17: warning: excess elements in scalar initializer
+   { 0X02, 0x1A, 0x51 }, //14
+                 ^~~~
+../src/imx222.c:21:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:21:3: warning: excess elements in scalar initializer
+   { 0X02, 0x1A, 0x51 }, //14
+   ^
+../src/imx222.c:21:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:22:3: warning: braces around scalar initializer
+   { 0X02, 0x1B, 0x04 }, //15
+   ^
+../src/imx222.c:22:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:22:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x1B, 0x04 }, //15
+     ^~~~
+../src/imx222.c:22:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:22:11: warning: excess elements in scalar initializer
+   { 0X02, 0x1B, 0x04 }, //15
+           ^~~~
+../src/imx222.c:22:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:22:17: warning: excess elements in scalar initializer
+   { 0X02, 0x1B, 0x04 }, //15
+                 ^~~~
+../src/imx222.c:22:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:22:3: warning: excess elements in scalar initializer
+   { 0X02, 0x1B, 0x04 }, //15
+   ^
+../src/imx222.c:22:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:23:3: warning: braces around scalar initializer
+   { 0X02, 0x1e, 0x20 }, //gain
+   ^
+../src/imx222.c:23:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:23:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x1e, 0x20 }, //gain
+     ^~~~
+../src/imx222.c:23:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:23:11: warning: excess elements in scalar initializer
+   { 0X02, 0x1e, 0x20 }, //gain
+           ^~~~
+../src/imx222.c:23:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:23:17: warning: excess elements in scalar initializer
+   { 0X02, 0x1e, 0x20 }, //gain
+                 ^~~~
+../src/imx222.c:23:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:23:3: warning: excess elements in scalar initializer
+   { 0X02, 0x1e, 0x20 }, //gain
+   ^
+../src/imx222.c:23:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:24:3: warning: braces around scalar initializer
+   { 0X02, 0x20, 0xf0 }, //16
+   ^
+../src/imx222.c:24:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:24:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x20, 0xf0 }, //16
+     ^~~~
+../src/imx222.c:24:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:24:11: warning: excess elements in scalar initializer
+   { 0X02, 0x20, 0xf0 }, //16
+           ^~~~
+../src/imx222.c:24:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:24:17: warning: excess elements in scalar initializer
+   { 0X02, 0x20, 0xf0 }, //16
+                 ^~~~
+../src/imx222.c:24:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:24:3: warning: excess elements in scalar initializer
+   { 0X02, 0x20, 0xf0 }, //16
+   ^
+../src/imx222.c:24:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:25:3: warning: braces around scalar initializer
+   { 0X02, 0x21, 0x00 }, //16
+   ^
+../src/imx222.c:25:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:25:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x21, 0x00 }, //16
+     ^~~~
+../src/imx222.c:25:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:25:11: warning: excess elements in scalar initializer
+   { 0X02, 0x21, 0x00 }, //16
+           ^~~~
+../src/imx222.c:25:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:25:17: warning: excess elements in scalar initializer
+   { 0X02, 0x21, 0x00 }, //16
+                 ^~~~
+../src/imx222.c:25:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:25:3: warning: excess elements in scalar initializer
+   { 0X02, 0x21, 0x00 }, //16
+   ^
+../src/imx222.c:25:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:26:3: warning: braces around scalar initializer
+   { 0X02, 0x2c, 0x00 }, //16
+   ^
+../src/imx222.c:26:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:26:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x2c, 0x00 }, //16
+     ^~~~
+../src/imx222.c:26:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:26:11: warning: excess elements in scalar initializer
+   { 0X02, 0x2c, 0x00 }, //16
+           ^~~~
+../src/imx222.c:26:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:26:17: warning: excess elements in scalar initializer
+   { 0X02, 0x2c, 0x00 }, //16
+                 ^~~~
+../src/imx222.c:26:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:26:3: warning: excess elements in scalar initializer
+   { 0X02, 0x2c, 0x00 }, //16
+   ^
+../src/imx222.c:26:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:27:3: warning: braces around scalar initializer
+   { 0X02, 0x2d, 0x42 }, //clk
+   ^
+../src/imx222.c:27:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:27:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x2d, 0x42 }, //clk
+     ^~~~
+../src/imx222.c:27:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:27:11: warning: excess elements in scalar initializer
+   { 0X02, 0x2d, 0x42 }, //clk
+           ^~~~
+../src/imx222.c:27:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:27:17: warning: excess elements in scalar initializer
+   { 0X02, 0x2d, 0x42 }, //clk
+                 ^~~~
+../src/imx222.c:27:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:27:3: warning: excess elements in scalar initializer
+   { 0X02, 0x2d, 0x42 }, //clk
+   ^
+../src/imx222.c:27:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:28:3: warning: braces around scalar initializer
+   { 0X02, 0x3b, 0xe1 }, //18 sync code
+   ^
+../src/imx222.c:28:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:28:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x3b, 0xe1 }, //18 sync code
+     ^~~~
+../src/imx222.c:28:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:28:11: warning: excess elements in scalar initializer
+   { 0X02, 0x3b, 0xe1 }, //18 sync code
+           ^~~~
+../src/imx222.c:28:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:28:17: warning: excess elements in scalar initializer
+   { 0X02, 0x3b, 0xe1 }, //18 sync code
+                 ^~~~
+../src/imx222.c:28:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:28:3: warning: excess elements in scalar initializer
+   { 0X02, 0x3b, 0xe1 }, //18 sync code
+   ^
+../src/imx222.c:28:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:29:3: warning: braces around scalar initializer
+   { 0X02, 0x9A, 0x26 }, //22
+   ^
+../src/imx222.c:29:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:29:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x9A, 0x26 }, //22
+     ^~~~
+../src/imx222.c:29:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:29:11: warning: excess elements in scalar initializer
+   { 0X02, 0x9A, 0x26 }, //22
+           ^~~~
+../src/imx222.c:29:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:29:17: warning: excess elements in scalar initializer
+   { 0X02, 0x9A, 0x26 }, //22
+                 ^~~~
+../src/imx222.c:29:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:29:3: warning: excess elements in scalar initializer
+   { 0X02, 0x9A, 0x26 }, //22
+   ^
+../src/imx222.c:29:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:30:3: warning: braces around scalar initializer
+   { 0X02, 0x9B, 0x02 }, //23
+   ^
+../src/imx222.c:30:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:30:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x9B, 0x02 }, //23
+     ^~~~
+../src/imx222.c:30:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:30:11: warning: excess elements in scalar initializer
+   { 0X02, 0x9B, 0x02 }, //23
+           ^~~~
+../src/imx222.c:30:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:30:17: warning: excess elements in scalar initializer
+   { 0X02, 0x9B, 0x02 }, //23
+                 ^~~~
+../src/imx222.c:30:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:30:3: warning: excess elements in scalar initializer
+   { 0X02, 0x9B, 0x02 }, //23
+   ^
+../src/imx222.c:30:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:31:3: warning: braces around scalar initializer
+   { 0X02, 0xCE, 0x16 }, //24
+   ^
+../src/imx222.c:31:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:31:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0xCE, 0x16 }, //24
+     ^~~~
+../src/imx222.c:31:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:31:11: warning: excess elements in scalar initializer
+   { 0X02, 0xCE, 0x16 }, //24
+           ^~~~
+../src/imx222.c:31:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:31:17: warning: excess elements in scalar initializer
+   { 0X02, 0xCE, 0x16 }, //24
+                 ^~~~
+../src/imx222.c:31:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:31:3: warning: excess elements in scalar initializer
+   { 0X02, 0xCE, 0x16 }, //24
+   ^
+../src/imx222.c:31:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:32:3: warning: braces around scalar initializer
+   { 0X02, 0xCF, 0x82 }, //25
+   ^
+../src/imx222.c:32:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:32:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0xCF, 0x82 }, //25
+     ^~~~
+../src/imx222.c:32:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:32:11: warning: excess elements in scalar initializer
+   { 0X02, 0xCF, 0x82 }, //25
+           ^~~~
+../src/imx222.c:32:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:32:17: warning: excess elements in scalar initializer
+   { 0X02, 0xCF, 0x82 }, //25
+                 ^~~~
+../src/imx222.c:32:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:32:3: warning: excess elements in scalar initializer
+   { 0X02, 0xCF, 0x82 }, //25
+   ^
+../src/imx222.c:32:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:33:3: warning: braces around scalar initializer
+   { 0X02, 0xD0, 0x00 }, //26
+   ^
+../src/imx222.c:33:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:33:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0xD0, 0x00 }, //26
+     ^~~~
+../src/imx222.c:33:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:33:11: warning: excess elements in scalar initializer
+   { 0X02, 0xD0, 0x00 }, //26
+           ^~~~
+../src/imx222.c:33:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:33:17: warning: excess elements in scalar initializer
+   { 0X02, 0xD0, 0x00 }, //26
+                 ^~~~
+../src/imx222.c:33:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:33:3: warning: excess elements in scalar initializer
+   { 0X02, 0xD0, 0x00 }, //26
+   ^
+../src/imx222.c:33:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:34:3: warning: braces around scalar initializer
+   { 0X02, 0x00, 0x00 }, //27
+   ^
+../src/imx222.c:34:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:34:5: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   { 0X02, 0x00, 0x00 }, //27
+     ^~~~
+../src/imx222.c:34:5: note: (near initialization for 'spi_wreg')
+../src/imx222.c:34:11: warning: excess elements in scalar initializer
+   { 0X02, 0x00, 0x00 }, //27
+           ^~~~
+../src/imx222.c:34:11: note: (near initialization for 'spi_wreg')
+../src/imx222.c:34:17: warning: excess elements in scalar initializer
+   { 0X02, 0x00, 0x00 }, //27
+                 ^~~~
+../src/imx222.c:34:17: note: (near initialization for 'spi_wreg')
+../src/imx222.c:34:3: warning: excess elements in scalar initializer
+   { 0X02, 0x00, 0x00 }, //27
+   ^
+../src/imx222.c:34:3: note: (near initialization for 'spi_wreg')
+../src/imx222.c:36:33: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ int initIMX222(XSpiPs *spipsptr){
+                                 ^
+../src/imx222.c:52:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ u8 f_to_l(u8 num){
+                  ^
+In file included from ../src/imx222.c:1:0:
+../src/imx222.h:7:4: error: old-style parameter declarations in prototyped function definition
+ u8 f_to_l(u8 num)
+    ^~~~~~
+../src/imx222.c:60:1: error: expected '{' at end of input
+ }
+ ^
+../src/imx222.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:35:16 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24052	   1248	  22632	  47932	   bb3c	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:37:14 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  24052	   1248	  22632	  47932	   bb3c	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:37:26 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:87:2: error: 'GpioCnfPtr' undeclared (first use in this function); did you mean 'SpipsCfgPtr'?
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+  ^~~~~~~~~~
+  SpipsCfgPtr
+../src/helloworld.c:87:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:87:15: warning: implicit declaration of function 'XGpioPs_LookupConfig'; did you mean 'XSpiPs_LookupConfig'? [-Wimplicit-function-declaration]
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+               ^~~~~~~~~~~~~~~~~~~~
+               XSpiPs_LookupConfig
+../src/helloworld.c:87:36: error: 'GPIO_DEV_ID' undeclared (first use in this function); did you mean 'SPI_DEV_ID'?
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+                                    ^~~~~~~~~~~
+                                    SPI_DEV_ID
+../src/helloworld.c:88:11: warning: implicit declaration of function 'XGpioPs_CfgInitialize'; did you mean 'XSpiPs_CfgInitialize'? [-Wimplicit-function-declaration]
+  status = XGpioPs_CfgInitialize(&GpioPs,GpioCnfPtr,GpioCnfPtr->BaseAddr);
+           ^~~~~~~~~~~~~~~~~~~~~
+           XSpiPs_CfgInitialize
+../src/helloworld.c:88:34: error: 'GpioPs' undeclared (first use in this function); did you mean 'Spips'?
+  status = XGpioPs_CfgInitialize(&GpioPs,GpioCnfPtr,GpioCnfPtr->BaseAddr);
+                                  ^~~~~~
+                                  Spips
+../src/helloworld.c:92:2: warning: implicit declaration of function 'XGpioPs_SetDirectionPin'; did you mean 'XSpiPs_SetOptions'? [-Wimplicit-function-declaration]
+  XGpioPs_SetDirectionPin(&GpioPs,LED0,0x01);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+  XSpiPs_SetOptions
+../src/helloworld.c:92:34: error: 'LED0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,LED0,0x01);
+                                  ^~~~
+../src/helloworld.c:93:34: error: 'LED1' undeclared (first use in this function); did you mean 'LED0'?
+  XGpioPs_SetDirectionPin(&GpioPs,LED1,0x01);
+                                  ^~~~
+                                  LED0
+../src/helloworld.c:94:2: warning: implicit declaration of function 'XGpioPs_SetOutputEnablePin' [-Wimplicit-function-declaration]
+  XGpioPs_SetOutputEnablePin(&GpioPs,LED0,0x01);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:96:34: error: 'SW0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,SW0,0x00);//input for button
+                                  ^~~
+../src/helloworld.c:98:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+20:38:02 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:57:2: error: invalid preprocessing directive #defube; did you mean #define?
+ #defube CMOS_RST 54
+  ^~~~~~
+  define
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:88:2: error: 'GpioCnfPtr' undeclared (first use in this function); did you mean 'SpipsCfgPtr'?
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+  ^~~~~~~~~~
+  SpipsCfgPtr
+../src/helloworld.c:88:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:88:15: warning: implicit declaration of function 'XGpioPs_LookupConfig'; did you mean 'XSpiPs_LookupConfig'? [-Wimplicit-function-declaration]
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+               ^~~~~~~~~~~~~~~~~~~~
+               XSpiPs_LookupConfig
+../src/helloworld.c:88:36: error: 'GPIO_DEV_ID' undeclared (first use in this function); did you mean 'SPI_DEV_ID'?
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+                                    ^~~~~~~~~~~
+                                    SPI_DEV_ID
+../src/helloworld.c:89:11: warning: implicit declaration of function 'XGpioPs_CfgInitialize'; did you mean 'XSpiPs_CfgInitialize'? [-Wimplicit-function-declaration]
+  status = XGpioPs_CfgInitialize(&GpioPs,GpioCnfPtr,GpioCnfPtr->BaseAddr);
+           ^~~~~~~~~~~~~~~~~~~~~
+           XSpiPs_CfgInitialize
+../src/helloworld.c:89:34: error: 'GpioPs' undeclared (first use in this function); did you mean 'Spips'?
+  status = XGpioPs_CfgInitialize(&GpioPs,GpioCnfPtr,GpioCnfPtr->BaseAddr);
+                                  ^~~~~~
+                                  Spips
+../src/helloworld.c:93:2: warning: implicit declaration of function 'XGpioPs_SetDirectionPin'; did you mean 'XSpiPs_SetOptions'? [-Wimplicit-function-declaration]
+  XGpioPs_SetDirectionPin(&GpioPs,LED0,0x01);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+  XSpiPs_SetOptions
+../src/helloworld.c:93:34: error: 'LED0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,LED0,0x01);
+                                  ^~~~
+../src/helloworld.c:94:34: error: 'LED1' undeclared (first use in this function); did you mean 'LED0'?
+  XGpioPs_SetDirectionPin(&GpioPs,LED1,0x01);
+                                  ^~~~
+                                  LED0
+../src/helloworld.c:95:2: warning: implicit declaration of function 'XGpioPs_SetOutputEnablePin' [-Wimplicit-function-declaration]
+  XGpioPs_SetOutputEnablePin(&GpioPs,LED0,0x01);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:97:34: error: 'SW0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,SW0,0x00);//input for button
+                                  ^~~
+../src/helloworld.c:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+20:38:16 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:88:2: error: 'GpioCnfPtr' undeclared (first use in this function); did you mean 'SpipsCfgPtr'?
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+  ^~~~~~~~~~
+  SpipsCfgPtr
+../src/helloworld.c:88:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:88:15: warning: implicit declaration of function 'XGpioPs_LookupConfig'; did you mean 'XSpiPs_LookupConfig'? [-Wimplicit-function-declaration]
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+               ^~~~~~~~~~~~~~~~~~~~
+               XSpiPs_LookupConfig
+../src/helloworld.c:88:36: error: 'GPIO_DEV_ID' undeclared (first use in this function); did you mean 'SPI_DEV_ID'?
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+                                    ^~~~~~~~~~~
+                                    SPI_DEV_ID
+../src/helloworld.c:89:11: warning: implicit declaration of function 'XGpioPs_CfgInitialize'; did you mean 'XSpiPs_CfgInitialize'? [-Wimplicit-function-declaration]
+  status = XGpioPs_CfgInitialize(&GpioPs,GpioCnfPtr,GpioCnfPtr->BaseAddr);
+           ^~~~~~~~~~~~~~~~~~~~~
+           XSpiPs_CfgInitialize
+../src/helloworld.c:89:34: error: 'GpioPs' undeclared (first use in this function); did you mean 'Spips'?
+  status = XGpioPs_CfgInitialize(&GpioPs,GpioCnfPtr,GpioCnfPtr->BaseAddr);
+                                  ^~~~~~
+                                  Spips
+../src/helloworld.c:93:2: warning: implicit declaration of function 'XGpioPs_SetDirectionPin'; did you mean 'XSpiPs_SetOptions'? [-Wimplicit-function-declaration]
+  XGpioPs_SetDirectionPin(&GpioPs,LED0,0x01);
+  ^~~~~~~~~~~~~~~~~~~~~~~
+  XSpiPs_SetOptions
+../src/helloworld.c:93:34: error: 'LED0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,LED0,0x01);
+                                  ^~~~
+../src/helloworld.c:94:34: error: 'LED1' undeclared (first use in this function); did you mean 'LED0'?
+  XGpioPs_SetDirectionPin(&GpioPs,LED1,0x01);
+                                  ^~~~
+                                  LED0
+../src/helloworld.c:95:2: warning: implicit declaration of function 'XGpioPs_SetOutputEnablePin' [-Wimplicit-function-declaration]
+  XGpioPs_SetOutputEnablePin(&GpioPs,LED0,0x01);
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:97:34: error: 'SW0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,SW0,0x00);//input for button
+                                  ^~~
+../src/helloworld.c:99:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+20:39:00 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:89:2: error: 'GpioCnfPtr' undeclared (first use in this function); did you mean 'SpipsCfgPtr'?
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+  ^~~~~~~~~~
+  SpipsCfgPtr
+../src/helloworld.c:89:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:89:36: error: 'GPIO_DEV_ID' undeclared (first use in this function); did you mean 'SPI_DEV_ID'?
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+                                    ^~~~~~~~~~~
+                                    SPI_DEV_ID
+../src/helloworld.c:90:34: error: 'GpioPs' undeclared (first use in this function); did you mean 'XGpioPs'?
+  status = XGpioPs_CfgInitialize(&GpioPs,GpioCnfPtr,GpioCnfPtr->BaseAddr);
+                                  ^~~~~~
+                                  XGpioPs
+../src/helloworld.c:94:34: error: 'LED0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,LED0,0x01);
+                                  ^~~~
+../src/helloworld.c:95:34: error: 'LED1' undeclared (first use in this function); did you mean 'LED0'?
+  XGpioPs_SetDirectionPin(&GpioPs,LED1,0x01);
+                                  ^~~~
+                                  LED0
+../src/helloworld.c:98:34: error: 'SW0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,SW0,0x00);//input for button
+                                  ^~~
+../src/helloworld.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+20:39:22 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:93:36: error: 'GPIO_DEV_ID' undeclared (first use in this function); did you mean 'SPI_DEV_ID'?
+  GpioCnfPtr = XGpioPs_LookupConfig(GPIO_DEV_ID);
+                                    ^~~~~~~~~~~
+                                    SPI_DEV_ID
+../src/helloworld.c:93:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:98:34: error: 'LED0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,LED0,0x01);
+                                  ^~~~
+../src/helloworld.c:99:34: error: 'LED1' undeclared (first use in this function); did you mean 'LED0'?
+  XGpioPs_SetDirectionPin(&GpioPs,LED1,0x01);
+                                  ^~~~
+                                  LED0
+../src/helloworld.c:102:34: error: 'SW0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,SW0,0x00);//input for button
+                                  ^~~
+../src/helloworld.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+20:39:36 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:99:34: error: 'LED0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,LED0,0x01);
+                                  ^~~~
+../src/helloworld.c:99:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:100:34: error: 'LED1' undeclared (first use in this function); did you mean 'LED0'?
+  XGpioPs_SetDirectionPin(&GpioPs,LED1,0x01);
+                                  ^~~~
+                                  LED0
+../src/helloworld.c:103:34: error: 'SW0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,SW0,0x00);//input for button
+                                  ^~~
+../src/helloworld.c:105:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+20:39:51 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:101:34: error: 'SW0' undeclared (first use in this function)
+  XGpioPs_SetDirectionPin(&GpioPs,SW0,0x00);//input for button
+                                  ^~~
+../src/helloworld.c:101:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:102:37: error: 'LED1' undeclared (first use in this function)
+  XGpioPs_SetOutputEnablePin(&GpioPs,LED1,0x00);
+                                     ^~~~
+../src/helloworld.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+20:39:57 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31584	   1256	  22664	  55504	   d8d0	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:41:14 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:98:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31556	   1256	  22664	  55476	   d8b4	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:41:58 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31576	   1256	  22664	  55496	   d8c8	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:42:05 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:72:5: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+     usleep(1);
+     ^~~~~~
+     fseek
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31732	   1256	  22664	  55652	   d964	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:42:17 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:72:5: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+     usleep(1);
+     ^~~~~~
+     fseek
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31752	   1256	  22664	  55672	   d978	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:42:40 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:72:5: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+     usleep(1);
+     ^~~~~~
+     fseek
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31752	   1256	  22664	  55672	   d978	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:43:31 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:5: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+     usleep(1);
+     ^~~~~~
+     fseek
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31752	   1256	  22664	  55672	   d978	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:43:35 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:5: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+     usleep(1);
+     ^~~~~~
+     fseek
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31752	   1256	  22664	  55672	   d978	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:44:24 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:5: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+     usleep(1);
+     ^~~~~~
+     fseek
+../src/helloworld.c:75:16: error: incompatible type for argument 1 of 'initIMX222'
+     initIMX222(Spips);
+                ^~~~~
+In file included from ../src/helloworld.c:54:0:
+../src/imx222.h:6:5: note: expected 'XSpiPs * {aka struct <anonymous> *}' but argument is of type 'XSpiPs {aka struct <anonymous>}'
+ int initIMX222(XSpiPs *spipsptr);
+     ^~~~~~~~~~
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/subdir.mk:29: src/helloworld.o] Error 1
+20:45:25 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:73:5: warning: implicit declaration of function 'usleep'; did you mean 'fseek'? [-Wimplicit-function-declaration]
+     usleep(1);
+     ^~~~~~
+     fseek
+../src/helloworld.c: In function 'initGpio':
+../src/helloworld.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31764	   1256	  22664	  55684	   d984	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:46:17 **** Incremental Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:46:36 **** Incremental Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:47:10 **** Incremental Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:47:25 **** Incremental Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:48:14 **** Incremental Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:53:30 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+../src/imx222.c: In function 'f_to_l':
+../src/imx222.c:53:2: error: unknown type name 'u'; did you mean 'u8'?
+  u a;
+  ^
+  u8
+make: *** [src/subdir.mk:29: src/imx222.o] Error 1
+20:53:33 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31768	   1256	  22664	  55688	   d988	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:53:36 **** Incremental Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:55:35 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31776	   1256	  22664	  55696	   d990	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:55:38 **** Incremental Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:57:00 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31768	   1256	  22664	  55688	   d988	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:57:09 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31768	   1256	  22664	  55688	   d988	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:57:13 **** Incremental Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+20:58:09 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31768	   1256	  22664	  55688	   d988	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:58:58 **** Auto Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/imx222.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/imx222.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../cmos_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/imx222.d" -MT"src/imx222.o" -o "src/imx222.o" "../src/imx222.c"
+'Finished building: ../src/imx222.c'
+' '
+'Building target: cmos.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../cmos_bsp/ps7_cortexa9_0/lib -o "cmos.elf"  ./src/helloworld.o ./src/imx222.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: cmos.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size cmos.elf  |tee "cmos.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31784	   1256	  22664	  55704	   d998	cmos.elf
+'Finished building: cmos.elf.size'
+' '
+20:59:01 **** Incremental Build of configuration Debug for project cmos ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
